@@ -1,0 +1,16 @@
+/debian/.debhelper
+/debian/devhelper-build-stamp
+/debian/language-selector-gnome.substvars
+/debian/language-selector-gnome.prerm.debhelper
+/debian/language-selector-gnome.postinst.debhelper
+/debian/language-selector-common.prerm.debhelper
+/debian/language-selector-common.preinst.debhelper
+/debian/language-selector-common.postrm.debhelper
+/debian/language-selector-common.postinst.debhelper
+/debian/language-selector-gnome
+/debian/language-selector-common
+/debian/tmp
+/.pybuild
+/build
+/**/__pycache__
+/**/.pyc
