@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2005-2021, Canonical Ltd
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2009, Harald Sitter <apachelogger@ubuntu.com>
+           2005-2021, Canonical Ltd
+License: GPL-2+
+
+License: GPL-2+
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.

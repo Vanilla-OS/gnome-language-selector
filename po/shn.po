@@ -1,0 +1,417 @@
+# Shan translation for language-selector
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the language-selector package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: language-selector\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-03-23 19:42+0000\n"
+"PO-Revision-Date: 2019-11-04 06:30+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: Shan <shn@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n == 1) ? 0 : 1;\n"
+"X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
+"X-Generator: Launchpad (build 4c58cf79c82ce3fbd42288b21369cc838fb5b9e0)\n"
+
+#. Hack for Chinese langpack split
+#. Translators: please translate 'Chinese (simplified)' and 'Chinese (traditional)' so that they appear next to each other when sorted alphabetically.
+#: ../LanguageSelector/LocaleInfo.py:56
+msgid "Chinese (simplified)"
+msgstr "ၽႃႇသႃႇၶႄႇ (လၢႆးငၢႆႈ)"
+
+#. Translators: please translate 'Chinese (simplified)' and 'Chinese (traditional)' so that they appear next to each other when sorted alphabetically.
+#: ../LanguageSelector/LocaleInfo.py:58
+msgid "Chinese (traditional)"
+msgstr "ၽႃႇသႃႇၶႄႇ (လၢႆးၵဝ်ႇ)"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:233
+msgid "No language information available"
+msgstr "ဢမ်ႇပႆႇမီး လွၼ်ႉၶၢဝ်ႇၽႃႇသႃႇၵႂၢမ်း"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:234
+msgid ""
+"The system does not have information about the available languages yet. Do "
+"you want to perform a network update to get them now? "
+msgstr ""
+"တီႈပိူင်ႈသၢင်ႈ ​ဢမ်ႇလႆႈမီးလွၼ်ႉၶၢဝ်ႇ ၵပ်းၵၢႆႇလူၺ်ႈ ၽႃႇသႃႇၵႂၢမ်း "
+"ၸိူဝ်းၸႂ်ႉလႆႈၼၼ်ႉ။ ၸွင်ႇၸဝ်ႈၵဝ်ႇၶႂ်ႈႁဵတ်း ​ဢၢပ်ႉတဵတ်ႉၵွင်ႉသၢၼ်သေ "
+"​​​ဢဝ်လွၼ်ႉၶၢဝ်ႇၶဝ် ယၢမ်းလဵဝ်ၼႆႉႁိုဝ်?. "
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:238
+msgid "_Update"
+msgstr "ဢၢပ်ႉတဵၵ်ႉ"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:322
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:359
+#: ../data/LanguageSelector.ui.h:21
+msgid "Language"
+msgstr "ၽႃႇသႃႇၵႂၢမ်း"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:329
+msgid "Installed"
+msgstr "ၸိူဝ်းဢူၼ်းသႂ်ႇယဝ့်"
+
+#. print("%(INSTALL)d to install, %(REMOVE)d to remove" % (countInstall, countRemove))
+#. Translators: %(INSTALL)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "INSTALL".
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:397
+#, python-format
+msgid "%(INSTALL)d to install"
+msgid_plural "%(INSTALL)d to install"
+msgstr[0] "%(INSTALL)d တႃႇဢူၼ်းသႂ်ႇ"
+msgstr[1] "%(INSTALL)d တႃႇဢူၼ်းသႂ်ႇ"
+
+#. Translators: %(REMOVE)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "REMOVE".
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:399
+#, python-format
+msgid "%(REMOVE)d to remove"
+msgid_plural "%(REMOVE)d to remove"
+msgstr[0] "တွၼ်ႈတႃႇထွၼ်ပႅတ်ႈ %(REMOVE)d"
+msgstr[1] "တွၼ်ႈတႃႇထွၼ်ပႅတ်ႈ %(REMOVE)d"
+
+#. Translators: this string will concatenate the "%n to install" and "%n to remove" strings, you can replace the comma if you need to.
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:408
+#, python-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#. find out about the other options
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:456
+msgid "none"
+msgstr "​ဢမ်ႇမီးသင်"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:509
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:718
+msgid "Software database is broken"
+msgstr "ယေးၶေႃႈမုၼ်း သွပ်ႉၾ်ဝႄးလ် လႆႈလူႉလႅဝ်ဝႆႉ"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:510
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:719
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"တွၼ်ႈတႃႇ ​ဢူၼ်းသႂ်ႇ ​ဢမ်ႇၼၼ် ထွၼ်ပႅတ်ႈ သွပ်ႉၾ်ဝႄးလ်သေ​ဢၼ်​ဢၼ်ၼႆႉ "
+"​ဢမ်ႇပႆႇပဵၼ်လႆႈ။ ၶႅၼ်းတေႃႈ ၵူတ်ႇထတ်းတူၺ်း တူဝ်ၸတ်းၵၢၼ် ပႅၵ်ႉ﻿ၵဵတ်ႉ "
+"\"Synaptic\" ​ဢမ်ႇၼၼ် ပေႃႉ \"sudo apt-get install -f\" ၼႆႉသႂ်ႇတီႈၼႂ်း "
+"တႃႇမီႇၼႄႇလ်သေ မႄးပၼ် ပၼ်ႁႃ​ဢၼ်ၼႆႉ ​ဢွၼ်တၢင်းလႄႈ။."
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:551
+msgid "Could not install the selected language support"
+msgstr "​ဢမ်ႇၸၢင်ႈ​ဢူၼ်းသႂ်ႇ လွင်ႈၵမ်ႉထႅမ်ၽႃႇသႃႇၵႂၢမ်း ​ဢၼ်လိူၵ်ႈဝႆႉၼႆႉ"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:552
+msgid ""
+"This is perhaps a bug of this application. Please file a bug report at "
+"https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
+msgstr ""
+"​ဢၼ်ၼႆႉ မၼ်းပဵၼ် လွင်ႈယူပ်ႈယွမ်း ႁင်း ​ဢႅပ်ႇပလီၶေးသျိၼ်း​ဢၼ်ၼႆႉယဝ်ႉ။ "
+"ၶႅၼ်းတေႃႈ ​ဢဝ် လွင်ႈယူပ်ႈယွမ်း​ဢၼ်ၼႆႉ သူင်ႇၾၢႆႇပၼ်တီႈ "
+"https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:576
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:612
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
+msgid "Could not install the full language support"
+msgstr "​ဢမ်ႇၸၢင်ႈ​ဢူၼ်းသႂ်ႇ လွင်ႈၵမ်ႉထႅမ် ၽႃႈသႃႇၵႂၢမ်းတင်းသဵင်ႈ"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:577
+msgid ""
+"Usually this is related to an error in your software archive or software "
+"manager. Check your preferences in Software Sources (click the icon at the "
+"very right of the top bar and select \"System Settings... -> Software "
+"Sources\")."
+msgstr ""
+"ၵမ်ႉၼမ်တႄႉ ​ဢၼ်ၼႆႉ မၼ်းတေၵဵဝ်ႇလူၺ်ႈ လွင်ႈၽိတ်းပိူင်ႈ တီႈ "
+"ၽိုၼ်သိမ်းသွပ်ႉၾ်ဝႄးလ်ၸဝ်ႈၵဝ်ႇ ​ဢမ်ႇၼၼ် တီႈ တူဝ်ၸတ်းၵၢၼ်သွပ်ႉၾ်ဝႄးလ်။ "
+"ၶႅၼ်းတေႃႇ ၵူတ်ႇတူၺ်း ငဝ်ႈၵုမ်းပိူင်ၸဝ်ႈၵဝ်ႇ တီႈၼႂ်း ငဝ်ႈငႃႇသွပ်ႉၾ်ဝႄးလ် "
+"(ၼိၵ်းၶလိၵ်ႉ တီႈ ႁၢင်ႈႁိင်ႈ ​ဢၼ်မီးတီႈ ၸဵင်ႇၼိူဝ်ၽၢႆႇၶႂႃ ပႅၵ်ႈၼိူဝ် သေ "
+"လိူၵ်ႈပၼ်  \"System Settings... -> Software Sources\")."
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:613
+msgid "Failed to authorize to install packages."
+msgstr "လွင်ႈၼႄႉၼွၼ်း ​ဢမ်ႇၶႅမ်ႉလႅပ်ႈ တွၼ်ႈတႃႇ​ဢူးသႂ်ႇ ပႅၵ်ႉၵဵတ်ႉ။."
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:671
+msgid "The language support is not installed completely"
+msgstr "လွင်ႈ​ဢူၼ်းသႂ်ႇ လွင်ႈၵမ်ႉထႅမ်ၽႃႇသႃႇၵႂၢမ်းၼႆႉ ​ဢမ်ႇယဝ်ႉတူဝ်ႈ"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+msgid ""
+"Some translations or writing aids available for your chosen languages are "
+"not installed yet. Do you want to install them now?"
+msgstr ""
+"လွင်ႈပိၼ်ႇၽႃႇသႃႇမၢင်ႇၸိူဝ်း ​ဢမ်ႇၼၼ် တၢင်းၸွႆႈထႅမ် လွင်ႈတႅမ်ႈလိၵ်ႈ "
+"​ဢၼ်ၸဝ်ႈၵဝ်ႇလိူၵ်ႈဝႆႉ တႃႇ ၽႃႇသႃႇၵႂၢမ်းၼၼ်ႉ ပႆႇလႆႈ​ဢူၼ်းသႂ်ႇၵွၼ်ႇ။ "
+"ၸွင်ႇၸဝ်ႈၵဝ်ႇ ၶႂ်ႈ​ဢူၼ်းသႂ်ႇ ယၢမ်းလဵဝ်ႁိုဝ်?"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:675
+msgid "_Remind Me Later"
+msgstr "ပၼ်ၽၢင်ႉၵဝ်ၶႃႈ ဝၢႆးလင်"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:676
+msgid "_Install"
+msgstr "ဢူၼ်းသႂ်ႇ"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:679
+msgid "Details"
+msgstr "ႁူဝ်ယွႆႈ"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:943
+#, python-format
+msgid ""
+"Failed to apply the '%s' format\n"
+"choice. The examples may show up if you\n"
+"close and re-open Language Support."
+msgstr ""
+"မီးလွင်ႈ​ဢမ်ႇၶႅမ်ႉလႅပ်ႈ တွၼ်ႈတႃႇၸႂ်ႈ ပိူင် '%s'\n"
+"​ဢၼ်လိူၵ်ႈဝႆႉ။ ပိူင်ယၢင်ႇမၼ်းတေၼႄပၼ် သင်ၸိူဝ်ႈၵဝ်ႇ\n"
+"​ဢိုတ်းသေ ၶိုၼ်းပိုတ်ႇ လွင်ႈၵမ်ႉထႅမ်ၽႃႇသႃႇၵႂၢမ်း။."
+
+#: ../data/LanguageSelector.ui.h:1
+#: ../data/gnome-language-selector.desktop.in.h:1
+msgid "Language Support"
+msgstr "လွင်ႈၵမ်ႉထႅမ် ၽႃႇသႃႇၵႂၢမ်း"
+
+#: ../data/LanguageSelector.ui.h:2
+msgid ""
+"<big><b>Checking available language support</b></big>\n"
+"\n"
+"The availability of translations or writing aids can differ between "
+"languages."
+msgstr ""
+"<big><b>ၵူတ်ႇထတ်းတူၺ်း လွင်ႈၵမ်ႉထႅမ် ၽႃႇသႃႇၵႂၢမ်း ​ဢၼ်​ဢဝ်ၸႂ်ႉလႆႈ</b></big>\n"
+"\n"
+"လွင်ႈ​ဢဝ်ၸႂ်ႉလႆႈ ႁင်း လွင်ႈပိၼ်ႇၽႃႇသႃႇ ​ဢမ်ႇၼၼ် ၵၢၼ်ၸွႆႈထႅမ် လွင်ႈတႅမ်ႈလိၵ်ႈ "
+"ၸိူဝ်းၼႆႉ ၽႃႇသႃႇၵႂၢမ်း ​ဢၼ်ၼိုင်ႈလႄႈ ​ဢၼ်ၼိုင်ႈ တေၸၢင်ႈပႅၵ်ႇပိူင်ႈၵၼ်ယူႇ။."
+
+#: ../data/LanguageSelector.ui.h:5
+msgid "Installed Languages"
+msgstr "ၽႃႇသႃႇၵႂၢမ်း ၸိူဝ်း​ဢူၼ်းသႂ်ႇဝႆႉ"
+
+#: ../data/LanguageSelector.ui.h:6
+msgid ""
+"When a language is installed, individual users can choose it in their "
+"Language settings."
+msgstr ""
+"ပေႃးဝႃႈ ​ဢူၼ်းသႂ်ႇယဝ်ႉ ၽႃႇသႃႇၵႂၢမ်းၼိုင်ႈ​ဢၼ်ၸိုင် ၽူႈၸႂ်ႉတိုဝ်း "
+"﻿ၵေႃႉလႂ်﻿ၵေႃႉၼၼ်ႉ ၸေၢင်ႈလိူၵ်ႈလႆႈ တီႈၼႂ်း ၵၢၼ်တင်ႈၽႃႇသႃႇၵႂၢမ်းၶဝ်ၼၼ်ႉယဝ်ႉ။."
+
+#: ../data/LanguageSelector.ui.h:7
+msgid "Language for menus and windows:"
+msgstr "ၽႃႇသႃႇၵႂၢမ်း တွၼ်ႈတႃႇ သဵၼ်ႈၵၢၼ် လႄႈ ဝိၼ်းတူဝ်း :"
+
+#: ../data/LanguageSelector.ui.h:8
+msgid ""
+"This setting only affects the language your desktop and applications are "
+"displayed in. It does not set the system environment, like currency or date "
+"format settings. For that, use the settings in the Regional Formats tab.\n"
+"The order of the values displayed here decides which translations to use for "
+"your desktop. If translations for the first language are not available, the "
+"next one in this list will be tried. The last entry of this list is always "
+"\"English\".\n"
+"Every entry below \"English\" will be ignored."
+msgstr ""
+"ၵၢၼ်တင်ႈ​ဢၼ်ၼႆႉ မၼ်းၵူၺ်းတေ ႁဵတ်းၵၢၼ်ပၼ် ၽႃႇသႃႇၵႂၢမ်း ႁင်း ​တႅတ်ႉသတွပ်ႉ လႄႈ "
+"​ဢႅပ်ႇပလီၶေးသျိၼ်း ​ဢၼ်ၼႄဝႆႉၼၼ်ႉၵူၺ်း။ မၼ်းတေ​ဢမ်ႇမၵ်းသႂ်ႇပၼ်တီႈ "
+"သိူင်ႇဝႅတ်ႉလွမ်ႉပိူင်သၢင်ႈ၊ မိူၼ်ၼင်ႇ ၵၢၼ်တင်ႈ ငိုၼ်းတွင်း လႄႈ ပိူင်ဝၼ်းထိ။ "
+"တွၼ်ႈတႃႇၼၼ်ႉ ၸႂ်ႉၵၢၼ်တင်ႈ ​ဢၼ်မီးတီႈၼႂ်း ထႅပ်ႉ ပိူင်​ဢွင်ႈၼႃႈလိၼ်ၼၼ်ႉလႄႈ။.\n"
+"လွင်ႈၶပ်ႉၸႅၼ်ႇၵႃႈၶၼ် ​ဢၼ်ၼႄဝႆႉၼၼ်ႉ မၼ်းတေတႅပ်းတတ်းဝႃႈ "
+"လွင်ႈပိၼ်ႇၽႃႇသႃႇ​ဢၼ်လႂ် တေၸႂ်ႉတႃႇ တႅတ်ႉသတွပ်ႉ ၼႆယဝ်ႉ။ သင်ၸိူဝ်ႉဝႃႈ "
+"လွင်ႈပိၼ်ႇၽႃႇသႃႇ တွၼ်ႈတႃႇ ၽႃႇသႃႇၵႂၢမ်း ​ဢၼ်မီးတၢင်းၼိူဝ်သုတ်းၼၼ်ႉ "
+"မၼ်းပႆႇမီးၼႆ ​ဢၼ်တၢမ်းမၼ်းဝႆႉၼၼ်ႉ တေသိုပ်ႇႁဵတ်းၵႂႃႇယဝ်ႉ။ "
+"​​ဢၼ်ၵမ်းလိုၼ်းသုတ်း တီႈၼႂ်းသဵၼ်ႈမၢႆၼၼ်ႉတႄႉ တိုၼ်းတေပဵၼ် \"English\" "
+"တႃႇသေယဝ်ႉ။.\n"
+"ၸိူဝ်းမီးၽၢႆႇတႂ်ႈ \"English\" ၼၼ်ႉတႄႉ တိုၼ်းတေထုၵ်ႇၶၢမ်ႈပႅတ်ႈယူႇယဝ်ႉ။."
+
+#: ../data/LanguageSelector.ui.h:11
+msgid ""
+"<small><b>Drag languages to arrange them in order of preference.</b>\n"
+"Changes take effect next time you log in.</small>"
+msgstr ""
+"<small><b>ၼဵၵ့်ၸၼ်​ဢဝ် ၽႃႇသႃႇၵႂၢမ်း တႃႇၶပ်ႉၸႅၼ်ႇၸွမ်းၼင်ႇ "
+"​ဢၼ်လႆႈၸႂ်သုတ်းၼၼ်ႉ။.</b>\n"
+"လွင်ႈလႅၵ်ႈလၢႆႈၼႆႉ မၼ်းတေတႄႇႁဵတ်း "
+"ပေႃးၶဝ်ႈလွၵ်ႉ​ဢိၼ်ႇထႅင်ႈၵမ်းၼိုင်ႈၼၼ်ႉယဝ်ႉ။</small>"
+
+#: ../data/LanguageSelector.ui.h:13
+msgid "Apply System-Wide"
+msgstr "ၸႂ်ႉတီႈ ပတ်ႉပိုၼ်ႉပိူင်သၢင်ႈ"
+
+#: ../data/LanguageSelector.ui.h:14
+msgid ""
+"<small>Use the same language choices for startup and the login "
+"screen.</small>"
+msgstr ""
+"<small>ၸႂ်ႉၽႃႇသႃႇၵႂၢမ်းမိူၼ်ၵၼ် တွၼ်ႈတႃႇ တႄႇပိုတ်ႇၶွမ်း လႄႈ "
+"ၼႃႈၸေႃးလွၵ်ႉ​ဢိၼ်ႇ</small>"
+
+#: ../data/LanguageSelector.ui.h:15
+msgid "Install / Remove Languages..."
+msgstr "​ဢူၼ်းသႂ်ႇ/ထွၼ်ပႅတ်ႈ ၽႃႇသႃႇၵႂၢမ်း...."
+
+#: ../data/LanguageSelector.ui.h:16
+msgid "Keyboard input method system:"
+msgstr "ပိူင်သၢင်ႈ လွၵ်းလၢႆး ၶီးပူတ်ႉပေႃႉသႂ်ႇ :"
+
+#: ../data/LanguageSelector.ui.h:17
+msgid ""
+"If you need to type in languages, which require more complex input methods "
+"than just a simple key to letter mapping, you may want to enable this "
+"function.\n"
+"For example, you will need this function for typing Chinese, Japanese, "
+"Korean or Vietnamese.\n"
+"The recommended value for Ubuntu is \"IBus\".\n"
+"If you want to use alternative input method systems, install the "
+"corresponding packages first and then choose the desired system here."
+msgstr ""
+"သင်ၸိူဝ်ႉဝႃႈ ၸဝ်ႈၵဝ်ႇ လူဝ်ႇလႆႈပေႃႉလိၵ်ႈ ၼင်ႇၽႃႇသႃႇၵႂၢမ်း ​​ဢၼ်လူဝ်ႇ "
+"လွၵ်းလၢႆးပေႃႉသႂ်ႇ မဵဝ်းယုင်ႈယၢင်ႈၼၼ်ႉ ၸဝ်ႈၵဝ်ႇ လူဝ်ႇလႆႈပိုတ်ႇၸႂ်ႉ "
+"လၢႆးႁဵတ်းၵၢၼ် ​ဢၼ်ၼႆႉ။.\n"
+"ပိူင်ယၢင်ႇမၼ်း တွၼ်ႈတႃႇ လွင်ႈပေႃႉလိၵ်ႈ လိၵ်ႈၶႄႇ၊ လိၵ်ႈၵျႃႇပၢၼ်ႇ၊ "
+"လိၵ်ႈၵၢဝ်းလီႇ ​ဢမ်ႇၼၼ် လိၵ်ႈဝႅတ်ႉၼၢမ်းၼႆ "
+"ၸဝ်ႈၵဝ်ႇလူဝ်ႇလၢႆးၸႂ်ႉၵၢၼ်​ဢၼ်ၼႆႉယဝ်ႉ။.\n"
+"ၵႃႈၶၼ်​ဢၼ်ၶႂ်ႈပၼ်တၢင်းၶႆႈၸႂ် တွၼ်ႈတႃႇ ​ဢူးပုၼ်းတု တႄႉ ပဵၼ် \"IBus\" ယဝ်ႉ။.\n"
+"သင်ၸိူဝ်ႉဝႃႈ ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈၸႂ်ႉ ပိူင်သၢင်ႈလွၵ်းလၢႆး ပေႃႉလိၵ်ႈ "
+"တၢင်ႇ​ဢၼ်ၼႆၸိုင် ​ဢူၼ်းသႂ်ႇ ပဵၵ်ႉၵဵတ်ႉ​ဢွၼ်တၢင်းသေ လိူၵ်ႈပၼ် "
+"ပိူင်သၢင်ႈ​ဢၼ်ၶႂ်ႈၸႂ်ႉ ၵႃႈတီႈၼႆႈလႄႈ။."
+
+#: ../data/LanguageSelector.ui.h:22
+msgid "Display numbers, dates and currency amounts in the usual format for:"
+msgstr ""
+"ၼႄပၼ် တူဝ်ၼပ်ႉ ၊ ဝၼ်းထိ လႄႈ လွင်ၼပ်ႉ​ဢၢၼ်ႇငိုၼ်းတွင်း ၼင်ႇပိူင်တမ်း တွၼ်ႈတႃႇ "
+":"
+
+#: ../data/LanguageSelector.ui.h:23
+msgid ""
+"This will set the system environment like shown below and will also affect "
+"the preferred paper format and other region specific settings.\n"
+"If you want to display the desktop in a different language than this, please "
+"select it in the \"Language\" tab.\n"
+"Hence you should set this to a sensible value for the region in which you "
+"are located."
+msgstr ""
+"​ဢၼ်ၼႆႉ မၼ်းတေ မၵ်းသႂ်ႇတီႈ သိူင်ႇဝႅတ်ႉလွမ်ႉပိူင်သၢင်ႈ "
+"မိူၼ်ၼင်ႇၼႄဝႆႉတီႈတႂ်ႈၼႆႉသေ မၼ်းတေႁဵတ်းၵၢၼ်ပၼ်ပႃး တီႈ ပိူင်တမ်းၽိုၼ်ၸေႈ လႄႈ "
+"တီႈ ၵၢၼ်တင်ႈ​ဢွင်ႈတီႈၼႃႈလိၼ်တၢင်ႇၸိူဝ်းယဝ်ႉ။.\n"
+"သင်ၸိူဝ်ႉဝႃႈ ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈႁႂ်ႈ​ဢဝ် တႅတ်ႉသတွပ်ႇၼႆႉ ၼႄပၼ်တင်း "
+"ၽႃႇသႃႇၵႂၢမ်းတၢင်ႇၸိူဝ်းၼႆ ၶႅၼ်းတေႃႈ လိူၵ်ႈပၼ်​ဢၼ်မီးတီႈၼႂ်း "
+"\"ထႅပ်ႉၽႃႇသႃႇၵႂၢမ်း\" ၼၼ်ႉလႄႈ။.\n"
+"ၸဝ်ႈၵဝ်ႇ ထုၵ်ႇလီမၵ်းသႂ်ႇ ၶႃႈၶၼ်​ဢၼ်ငမ်ႇမႅၼ်ႈ တွၼ်ႈတႃႇ ​ဢွင်ႈတီႈ ​ဢၼ်ၸဝ်ႈၵဝ်ႇ "
+"မီးယူႇၼၼ်ႉယဝ်ႉ။."
+
+#: ../data/LanguageSelector.ui.h:26
+msgid "<small>Changes take effect next time you log in.</small>"
+msgstr ""
+"<small>လွင်ႈလႅၵ်ႈလၢႆႈၸိူဝ်းၼႆႉ တေတႄႇႁဵတ်းၵၢၼ် "
+"ပေႃးၸဝ်ႈၵဝ်ႇၶဝ်ႈလွၵ်ႉ​ဢိၼ်ႇထႅင်ႈၵမ်းတေမႃးၼၼ်ႉယဝ်ႉ။</small>"
+
+#: ../data/LanguageSelector.ui.h:27
+msgid ""
+"<small>Use the same format choice for startup and the login screen.</small>"
+msgstr ""
+"<small>ၸႂ်ႉပိူင်တၢမ်း​ဢၼ်မိူၼ်ၵၼ် တွၼ်ႈတႃႇ တႄႇပိုတ်ႇၶွမ်း လႄႈ "
+"ၼႃႈၸေႃးလွၵ်ႉ​ဢိၼ်ႇ</small>"
+
+#: ../data/LanguageSelector.ui.h:28
+msgid "Currency:"
+msgstr "ငိုၼ်းတွင်း :"
+
+#: ../data/LanguageSelector.ui.h:29
+msgid "Date:"
+msgstr "ဝၼ်းထိ :"
+
+#: ../data/LanguageSelector.ui.h:30
+msgid "Number:"
+msgstr "တူဝ်ၼပ်ႉ :"
+
+#: ../data/LanguageSelector.ui.h:31
+msgid "<b>Example</b>"
+msgstr "<b>တူဝ်ယၢင်ႇ</b>"
+
+#: ../data/LanguageSelector.ui.h:32
+msgid "Regional Formats"
+msgstr "ပိူင်တမ်း ၸွမ်းဢွင်ႈတီႈ"
+
+#: ../data/gnome-language-selector.desktop.in.h:2
+msgid "Configure multiple and native language support on your system"
+msgstr ""
+"မႄးၵုမ်း လွင်ႈၵမ်ႉထႅမ် ၽႃႇသႃႇၵႂၢမ်းပေႃႈမႄႈ လႄႈ တၢင်းၸိူဝ်း ၵႃႈတီႈၼိူဝ် "
+"ပိူင်သၢင်ႈၸဝ်ႈၵဝ်ႇ"
+
+#. Name
+#: ../data/incomplete-language-support-gnome.note.in:5
+msgid "Incomplete Language Support"
+msgstr "လွင်ႈၵမ်ႉထႅမ် ၽႃႇသႃႇၵႂၢမ်း ​ဢမ်ႇတဵမ်ထူၼ်ႈ"
+
+#. Description
+#: ../data/incomplete-language-support-gnome.note.in:6
+msgid ""
+"The language support files for your selected language seem to be incomplete. "
+"You can install the missing components by clicking on \"Run this action "
+"now\" and follow the instructions. An active internet connection is "
+"required. If you would like to do this at a later time, please use Language "
+"Support instead (click the icon at the very right of the top bar and select "
+"\"System Settings... -> Language Support\")."
+msgstr ""
+"ၾၢႆႇလွင်ႈၵမ်ႉထႅမ်ၽႃႇသႃႇၵႂၢမ်း တွၼ်ႈတႃႇ ၽႃႇသႃႇၵႂၢမ်း "
+"​ဢၼ်ၸဝ်ႈၵဝ်ႇလိူၵ်ႈဝႆႉၼၼ်ႉ လႅမ်ႈမၼ်း​ဢမ်ႇပႆႇတဵမ်ထူၼ်ႈ။ ၼဵၵ်း "
+"\"ႁဵတ်းလွင်ႈႁဵတ်းသၢင်ႈ ​ဢၼ်ၼႆႉယၢမ်းလဵဝ်\" သေ﻿ၵေႃႈ ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈ​ဢူၼ်းသႂ်ႇ "
+"ၶိူင်ႈၸိူဝ်းလူတ်ႈႁၢမ်းဝႆႉလႆႈယူႇသေ ႁဵတ်းၸွမ်းၼင်ႇ ၶေႃႈၸီႉသင်ႇလႄႈ။ "
+"လွင်ႈၵပ်းသၢၼ် ​ဢိၼ်ႇထႃႇၼႅတ်ႉတႄႉ လူဝ်ႇလႆႈမီးဝႆႉယဝ်ႉ။ သင်ဝႃႈ "
+"ဝၢႆးလင်မႃးၸင်ႇႁဵတ်းၼႆၸိုင် ၶႅၼ်းတေႃႈ ၸႂ်ႉ လွင်ႈၵမ်ႉထႅမ်ၽႃႇသႃႇၵႂၢမ်း "
+"​ဢၼ်တၢင်ႇမၼ်း )(ၼဵၵ်းၶလိၵ်ႉတီႈၼိူဝ် ႁၢင်ႈႁိင်ႈ ​ဢၼ်မီးတီႈ ၸဵင်ႇၶႂႃၽၢႆႇၼိူဝ် "
+"တီႈပႅၵ်ႈၼိူဝ်သေ လိူၵ်ႈပၼ် \"System Settings... -> Language Support\")."
+
+#. Name
+#: ../data/restart_session_required.note.in:5
+msgid "Session Restart Required"
+msgstr "လူဝ်ႇလွင်ႈတႄႇၶိုၼ်းတွၼ်ႈၵၼ်"
+
+#. Description
+#: ../data/restart_session_required.note.in:6
+msgid "The new language settings will take effect once you have logged out."
+msgstr ""
+"ၵၢၼ်တင်ႈတွၼ်ႈတႃႇ ၽႃႇသႃႇၵႂၢမ်း​ဢၼ်မႂ်ႇၼႆႉ ပေႃးၸဝ်ႈၵဝ်ႇ လွၵ်ႉ​ဢွၵ်ႉယဝ်ႉ "
+"မၼ်းၸင်ႇတေ တႄႇႁဵတ်းၵၢၼ်ယဝ်ႉ။."
+
+#: ../dbus_backend/com.ubuntu.languageselector.policy.in.h:1
+msgid "Set system default language"
+msgstr "မၵ်းမၢႆ ပိူင်ၵႅဝ်ႈၽႃႇသႃႇၵႂၢမ်း တႃႇပိူင်သၢင်ႈ"
+
+#: ../dbus_backend/com.ubuntu.languageselector.policy.in.h:2
+msgid "System policy prevented setting default language"
+msgstr "လၵ်းၵၢၼ်ပိူင်သၢင်ႈ လႆႈၵႅတ်ႇၵင်ႈ ၵၢၼ်တင်ႈ ပိူင်ၵႅဝ်ႈၽႃႇသႃႇၵႂၢမ်း"
+
+#: ../gnome-language-selector:33
+msgid "don't verify installed language support"
+msgstr "ယႃႇပေၼႄႉၼွၼ်း လွင်ႈၵမ်ႉထႅမ်ၽႃႇသႃႇၵႂၢမ်း ​ဢၼ်​ဢူၼ်းသႂ်ႇဝႆႉ"
+
+#: ../gnome-language-selector:36 ../check-language-support:27
+msgid "alternative datadir"
+msgstr "datadir တၢင်ႇ​ဢၼ်"
+
+#: ../check-language-support:24
+msgid "target language code"
+msgstr "ၶူတ်ႉၽႃႇသႃႇၵႂၢမ်း ​ဢၼ်ယိူင်းၸူး"
+
+#: ../check-language-support:28
+msgid "check for the given package(s) only -- separate packagenames by comma"
+msgstr ""
+"ၵူတ်ႇတူၺ်း တွၼႈတႃႇ ပႅၵ်ႉၵဵတ်ႉ​ဢၼ်ပၼ်ဝႆႉၼၼ်ႉၵူၺ်း - ​ဢဝ် ﻿ၵေႃႇမႃႇသေ "
+"ၶႅၼ်ႈပၼ်တီႈ ၸိုဝ်ႈပႅၵ်ႉၵဵတ်ႉ"
+
+#: ../check-language-support:30
+msgid "output all available language support packages for all languages"
+msgstr ""
+"ၽွၼ်းလႆႈ ပႅၵ်ႉၵဵတ်ႉတင်းသဵၼ်ႈ ​ဢၼ်​ဢဝ်ၸႂ်ႉလႆႈ လွင်ႈၵမ်ႉထႅမ်ၽႃႇသႃႇၵႂၢမ်း "
+"တွၼ်ႈတႃႇ ၽႃႇသႃႇၵႂၢမ်းတင်းသဵင်ႈ"
+
+#: ../check-language-support:33
+msgid "show installed packages as well as missing ones"
+msgstr "ၼႄပၼ် ပႅၵ်ႉၵဵတ်ႉ​ဢၼ်​ဢူၼ်းသႂ်ႇဝႆႉ လႄႈ ​ဢၼ်ႁၢႆလၢႆဝႆႉ"

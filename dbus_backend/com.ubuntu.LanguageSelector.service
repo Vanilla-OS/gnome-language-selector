@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.ubuntu.LanguageSelector
+Exec=/usr/libexec/language-selector/ls-dbus-backend
+User=root
