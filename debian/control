@@ -1,7 +1,7 @@
 Source: language-selector
 Section: admin
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Mirko Brombin <send@mirko.pm>
 Build-Depends: debhelper-compat (= 13),
  dh-python,
  python3-all,
@@ -12,8 +12,8 @@ Build-Depends: debhelper-compat (= 13),
  dh-translations
 Standards-Version: 4.6.0
 Rules-Requires-Root: no
-Vcs-Browser: https://git.launchpad.net/~ubuntu-desktop/ubuntu/+source/language-selector
-Vcs-Git: https://git.launchpad.net/~ubuntu-desktop/ubuntu/+source/language-selector
+Vcs-Browser: https://github.com/Vanilla-OS/gnome-language-selector
+Vcs-Git: https://github.com/Vanilla-OS/gnome-language-selector
 
 Package: language-selector-gnome
 Architecture: all
