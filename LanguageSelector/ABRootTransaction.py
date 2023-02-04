@@ -4,7 +4,7 @@ import shutil
 
 
 class ABRootTransaction():
-    
+
     def __init__(self):
         self.__binary = shutil.which("abroot")
         if not self.__binary:
@@ -12,7 +12,7 @@ class ABRootTransaction():
 
     def commit_packages(self, install: list, remove: list) -> bool:
         if not install and not remove:
-            return
+            return False
 
         with tempfile.NamedTemporaryFile(mode='w', delete=False) as f:
             f.write("#!/bin/bash\n")
@@ -27,7 +27,7 @@ class ABRootTransaction():
             f.flush()
             f.close()
 
-            cmd = ["pkexec", self.__binary, "exec", "-y", "sh", f.name]
+            cmd = ["pkexec", self.__binary, "exec", "-f", "-s", "sh", f.name]
             res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             if res.returncode != 0:
                 print(res.stdout)
