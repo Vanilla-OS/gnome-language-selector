@@ -2,22 +2,23 @@
 # Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the language-selector package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
+# Philip Goto <philip.goto@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
-"PO-Revision-Date: 2021-09-20 21:45+0000\n"
-"Last-Translator: ubuntu user <Unknown>\n"
-"Language-Team: Dutch <nl@li.org>\n"
+"PO-Revision-Date: 2023-02-13 23:18+0000\n"
+"Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
+"gnome-language-selector/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
-"X-Generator: Launchpad (build 4c58cf79c82ce3fbd42288b21369cc838fb5b9e0)\n"
 
 #. Hack for Chinese langpack split
 #. Translators: please translate 'Chinese (simplified)' and 'Chinese (traditional)' so that they appear next to each other when sorted alphabetically.
@@ -227,15 +228,15 @@ msgid ""
 "\"English\".\n"
 "Every entry below \"English\" will be ignored."
 msgstr ""
-"Deze instelling heeft alleen effect op de taal die in uw werkomgeving en in "
-"toepassingen wordt weergegeven. Ze stelt niet de systeemomgeving in, zoals "
-"valuta- of datumnotatie-instellingen. Gebruik daarvoor de instellingen in "
-"het tabblad ‘Landinstellingen’.\n"
+"Deze instelling heeft alleen effect op de taal waarin uw werkomgeving en "
+"apps worden weergegeven. Het stelt niet de systeemomgeving in, zoals "
+"instellingen voor valuta of datumnotatie. Gebruik daarvoor de instellingen "
+"onder het tabblad ‘Landinstellingen’.\n"
 "De volgorde waarin de talen hier worden weergegeven bepaalt welke "
 "vertalingen er voor uw werkomgeving worden gebruikt. Indien er geen "
-"vertalingen beschikbaar zijn voor de eerste taal,  zal de volgende in de "
-"lijst geprobeerd worden. De laatste taal in deze lijst is altijd ‘English’.\n"
-"Elke taal onder ‘English’ zal worden genegeerd."
+"vertalingen beschikbaar zijn voor de eerste taal, zal de volgende in de "
+"lijst geprobeerd worden. De laatste taal in deze lijst is altijd Engels.\n"
+"Elke taal onder Elgels zal worden genegeerd."
 
 #: ../data/LanguageSelector.ui.h:11
 msgid ""
