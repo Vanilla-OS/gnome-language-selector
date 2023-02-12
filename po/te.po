@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 19:42+0000\n"
+"POT-Creation-Date: 2022-12-24 21:53+0000\n"
 "PO-Revision-Date: 2019-11-04 06:30+0000\n"
 "Last-Translator: Launchpad Translations Administrators <Unknown>\n"
 "Language-Team: Telugu <te@li.org>\n"
+"Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
 "X-Generator: Launchpad (build 4c58cf79c82ce3fbd42288b21369cc838fb5b9e0)\n"
-"Language: te\n"
 
 #. Hack for Chinese langpack split
 #. Translators: please translate 'Chinese (simplified)' and 'Chinese (traditional)' so that they appear next to each other when sorted alphabetically.
@@ -30,35 +30,35 @@ msgstr "చైనీస్ (సరళ)"
 msgid "Chinese (traditional)"
 msgstr "చైనీస్ (సాంప్రదాయిక)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:233
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:236
 msgid "No language information available"
 msgstr "భాషను గూర్చి సమాచారము అందుబాటులో లేదు"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:234
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:237
 msgid ""
 "The system does not have information about the available languages yet. Do "
 "you want to perform a network update to get them now? "
 msgstr ""
-"అందుబాటులో గల భాషల గురించిన సమాచారం వ్యవస్థ ఇంతవరకూ కలిగిలేదు. వాటిని "
-"ఇప్పుడు పొందేందుకు నెట్‌వర్కు నవీకరణ చేయాలనుకుంటున్నారా? "
+"అందుబాటులో గల భాషల గురించిన సమాచారం వ్యవస్థ ఇంతవరకూ కలిగిలేదు. వాటిని ఇప్పుడు పొందేందుకు "
+"నెట్‌వర్కు నవీకరణ చేయాలనుకుంటున్నారా? "
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:238
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:241
 msgid "_Update"
 msgstr "నవీకరించు(_U)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:322
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:359
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:325
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:362
 #: ../data/LanguageSelector.ui.h:21
 msgid "Language"
 msgstr "భాష"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:329
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:332
 msgid "Installed"
 msgstr "స్థాపించబడినవి"
 
 #. print("%(INSTALL)d to install, %(REMOVE)d to remove" % (countInstall, countRemove))
 #. Translators: %(INSTALL)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "INSTALL".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:397
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:400
 #, python-format
 msgid "%(INSTALL)d to install"
 msgid_plural "%(INSTALL)d to install"
@@ -66,7 +66,7 @@ msgstr[0] "%(INSTALL)d ను స్థాపనకు"
 msgstr[1] "సంస్థాపించవలసిన %(INSTALL)d"
 
 #. Translators: %(REMOVE)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "REMOVE".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:399
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:402
 #, python-format
 msgid "%(REMOVE)d to remove"
 msgid_plural "%(REMOVE)d to remove"
@@ -74,88 +74,100 @@ msgstr[0] "%(REMOVE)d ను తొలగింపుకు"
 msgstr[1] "తొలగించవలసినది %(REMOVE)d"
 
 #. Translators: this string will concatenate the "%n to install" and "%n to remove" strings, you can replace the comma if you need to.
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:408
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:411
 #, python-format
 msgid "%s, %s"
 msgstr "%s, %s"
 
 #. find out about the other options
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:456
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:459
 msgid "none"
 msgstr "ఏదీకాదు"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:509
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:718
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:512
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:748
 msgid "Software database is broken"
 msgstr "సాఫ్ట్‍వేర్ డేటాబేసు విరిగినది"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:510
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:719
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:513
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:749
 msgid ""
 "It is impossible to install or remove any software. Please use the package "
 "manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
 "this issue at first."
 msgstr ""
-"ఏ సాఫ్ట్‍వేర్‌నైనా స్థాపించుట లేదా తొలగించుట అసాధ్యం. దయచేసి ప్యాకేజీ "
-"నిర్వాహకి \"Synaptic\" వాడు లేదా మొదట ఈ విషయాన్ని పరిష్కరించుటకు "
-"టెర్మినల్‌లో ఈ కమాండు నడుపు\"sudo apt-get install -f\""
+"ఏ సాఫ్ట్‍వేర్‌నైనా స్థాపించుట లేదా తొలగించుట అసాధ్యం. దయచేసి ప్యాకేజీ నిర్వాహకి \"Synaptic\" వాడు లేదా మొదట "
+"ఈ విషయాన్ని పరిష్కరించుటకు టెర్మినల్‌లో ఈ కమాండు నడుపు\"sudo apt-get install -f\""
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:551
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:554
 msgid "Could not install the selected language support"
 msgstr "మీరు ఎంచుకున్న భాష మద్ధతును స్థాపించుట సాధ్యపడదు"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:552
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:555
 msgid ""
 "This is perhaps a bug of this application. Please file a bug report at "
 "https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
 msgstr ""
-"బహుశా ఇది ఈ అనువర్తనంలోని బగ్ కావచ్చు. దయచేసి "
-"https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug వద్ద "
-"బగ్ నివేదికను దాఖలుచేయండి"
+"బహుశా ఇది ఈ అనువర్తనంలోని బగ్ కావచ్చు. దయచేసి https://bugs.launchpad.net/ubuntu/"
+"+source/language-selector/+filebug వద్ద బగ్ నివేదికను దాఖలుచేయండి"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:576
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:612
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:579
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:615
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:619
 msgid "Could not install the full language support"
 msgstr "పూర్తి భాషా మద్ధతును స్థాపించుట సాధ్యం కాదు"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:577
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:580
 msgid ""
 "Usually this is related to an error in your software archive or software "
 "manager. Check your preferences in Software Sources (click the icon at the "
-"very right of the top bar and select \"System Settings... -> Software "
-"Sources\")."
+"very right of the top bar and select \"System Settings... -> Software Sources"
+"\")."
 msgstr ""
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:613
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
 msgid "Failed to authorize to install packages."
 msgstr "ప్యాకేజీలను స్థాపించుటకు ధృవీకరించుటలో విఫలమైంది"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:671
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
+msgid "Failed to install packages. Please try again later."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#, fuzzy
+#| msgid "Installed Languages"
+msgid "Installing packages..."
+msgstr "స్థాపించబడిన భాషలు"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
+msgid "Please wait while the packages are being installed."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
 msgstr "భాష మద్ధతు పూర్తిగా స్థాపించబడలేదు"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:702
 msgid ""
 "Some translations or writing aids available for your chosen languages are "
 "not installed yet. Do you want to install them now?"
 msgstr ""
-"మీరు ఎంచుకున్న భాషలలో కొన్ని అనువాదాలు లేదా వ్రాత సహాయకాలు లభ్యతలో ఉన్నాయి "
-"కాని వాటిని ఇంకా స్థాపించలేదు. మీరు ఇపుడు వాటిని స్థాపించాలనుకుంటున్నారా?"
+"మీరు ఎంచుకున్న భాషలలో కొన్ని అనువాదాలు లేదా వ్రాత సహాయకాలు లభ్యతలో ఉన్నాయి కాని వాటిని ఇంకా స్థాపించలేదు. "
+"మీరు ఇపుడు వాటిని స్థాపించాలనుకుంటున్నారా?"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:675
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:705
 msgid "_Remind Me Later"
 msgstr "నాకు తరువాత గుర్తుచేయి(_R)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:676
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:706
 msgid "_Install"
 msgstr "స్థాపించు (_I)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:679
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:709
 msgid "Details"
 msgstr "వివరాలు"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:943
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:973
 #, python-format
 msgid ""
 "Failed to apply the '%s' format\n"
@@ -188,8 +200,8 @@ msgid ""
 "When a language is installed, individual users can choose it in their "
 "Language settings."
 msgstr ""
-"ఎపుడైతే ఒక భాష స్థాపించబడిందో, వ్యక్తిగత వాడుకరులు స్థాపించబడినదానిని వారి "
-"భాష అమరికల నుండి ఎంపిక చేసుకోవచ్చు."
+"ఎపుడైతే ఒక భాష స్థాపించబడిందో, వ్యక్తిగత వాడుకరులు స్థాపించబడినదానిని వారి భాష అమరికల నుండి ఎంపిక "
+"చేసుకోవచ్చు."
 
 #: ../data/LanguageSelector.ui.h:7
 msgid "Language for menus and windows:"
@@ -206,12 +218,11 @@ msgid ""
 "\"English\".\n"
 "Every entry below \"English\" will be ignored."
 msgstr ""
-"ఈ అమరిక మీ రంగస్థలం మరియు అనువర్తనాలు చూపబడే భాషని మాత్రమే ప్రభావితం "
-"చేస్తుంది. వ్యవస్థ పర్యావరణం అమరికలైన ద్రవ్యం, తేదీ రూపులను మార్చదు. "
-"దానికొరకు  ప్రాంతీయ ఆకృతీకరణలు(Regional Formats) టాబ్లోని అమరికలు వాడు.\n"
-"ఈ విలువల క్రమం, మీ రంగస్థలానికి వాడే భాష అనువాదాల నిర్ణయం జరుగుతుంది. మొదటి "
-"భాషకి అనువాదాలు లేకపోతే తర్వాత భాషఅనువాదాలు ప్రయత్నించబడుతాయి. దీనిలో చివరి "
-"నమోదు తప్పనిసరిగా ఇంగ్లీషు.\n"
+"ఈ అమరిక మీ రంగస్థలం మరియు అనువర్తనాలు చూపబడే భాషని మాత్రమే ప్రభావితం చేస్తుంది. వ్యవస్థ పర్యావరణం "
+"అమరికలైన ద్రవ్యం, తేదీ రూపులను మార్చదు. దానికొరకు  ప్రాంతీయ ఆకృతీకరణలు(Regional Formats) "
+"టాబ్లోని అమరికలు వాడు.\n"
+"ఈ విలువల క్రమం, మీ రంగస్థలానికి వాడే భాష అనువాదాల నిర్ణయం జరుగుతుంది. మొదటి భాషకి అనువాదాలు లేకపోతే "
+"తర్వాత భాషఅనువాదాలు ప్రయత్నించబడుతాయి. దీనిలో చివరి నమోదు తప్పనిసరిగా ఇంగ్లీషు.\n"
 "ఇంగ్లీషు తర్వాత నమోదులు విస్మరించబడతాయి."
 
 #: ../data/LanguageSelector.ui.h:11
@@ -226,8 +237,8 @@ msgstr "వ్యవస్థ అంతటికీ అనువర్తిం�
 
 #: ../data/LanguageSelector.ui.h:14
 msgid ""
-"<small>Use the same language choices for startup and the login "
-"screen.</small>"
+"<small>Use the same language choices for startup and the login screen.</"
+"small>"
 msgstr ""
 
 #: ../data/LanguageSelector.ui.h:15
@@ -252,8 +263,7 @@ msgstr ""
 
 #: ../data/LanguageSelector.ui.h:22
 msgid "Display numbers, dates and currency amounts in the usual format for:"
-msgstr ""
-"సంఖ్యలను, తేదీలను మరియు ద్రవ్యాల మొ త్తాలను సాధారణ ఫార్మేటులో చూపించుటకు:"
+msgstr "సంఖ్యలను, తేదీలను మరియు ద్రవ్యాల మొ త్తాలను సాధారణ ఫార్మేటులో చూపించుటకు:"
 
 #: ../data/LanguageSelector.ui.h:23
 msgid ""
@@ -264,8 +274,8 @@ msgid ""
 "Hence you should set this to a sensible value for the region in which you "
 "are located."
 msgstr ""
-"ఇది క్రిందచూపబడిన వ్యవస్థ పర్యావరణ అమరికలు మరియు ఇష్టమైన పేపరు తీరు మరియు "
-"ఇతర ప్రాంతీయ ఎంపికలు చేతనంచేస్తాయి.\n"
+"ఇది క్రిందచూపబడిన వ్యవస్థ పర్యావరణ అమరికలు మరియు ఇష్టమైన పేపరు తీరు మరియు ఇతర ప్రాంతీయ ఎంపికలు "
+"చేతనంచేస్తాయి.\n"
 "మీ రంగస్థలం వేరే భాషలో కావాలంటే  భాష (\"Language\") టాబ్ ఎంపికచేయండి.\n"
 "అందువలన మీ ప్రాంతానికి తగినైన విలువని ఇక్కడ ఇవ్వాలి."
 
@@ -311,11 +321,11 @@ msgstr "అసంపూర్ణ భాషా మద్ధతు"
 #: ../data/incomplete-language-support-gnome.note.in:6
 msgid ""
 "The language support files for your selected language seem to be incomplete. "
-"You can install the missing components by clicking on \"Run this action "
-"now\" and follow the instructions. An active internet connection is "
-"required. If you would like to do this at a later time, please use Language "
-"Support instead (click the icon at the very right of the top bar and select "
-"\"System Settings... -> Language Support\")."
+"You can install the missing components by clicking on \"Run this action now"
+"\" and follow the instructions. An active internet connection is required. "
+"If you would like to do this at a later time, please use Language Support "
+"instead (click the icon at the very right of the top bar and select \"System "
+"Settings... -> Language Support\")."
 msgstr ""
 
 #. Name
@@ -326,8 +336,7 @@ msgstr "చర్యాకాలపు పున:ప్రారంభం అవ
 #. Description
 #: ../data/restart_session_required.note.in:6
 msgid "The new language settings will take effect once you have logged out."
-msgstr ""
-"ఒకసారి మీరు లాగౌట్ అయిన తరువాత కొత్త భాష అమరికల ప్రభావాన్ని తీసుకుంటాయి."
+msgstr "ఒకసారి మీరు లాగౌట్ అయిన తరువాత కొత్త భాష అమరికల ప్రభావాన్ని తీసుకుంటాయి."
 
 #: ../dbus_backend/com.ubuntu.languageselector.policy.in.h:1
 msgid "Set system default language"
@@ -351,9 +360,7 @@ msgstr "లక్ష్య భాష కోడ్"
 
 #: ../check-language-support:28
 msgid "check for the given package(s) only -- separate packagenames by comma"
-msgstr ""
-"నిర్దిష్ట ప్యాకేజీ(ల) కోసం మాత్రమే పరీక్షించు -- ప్యాకేజీ పేరులను కామాతో "
-"వేరుచేయి"
+msgstr "నిర్దిష్ట ప్యాకేజీ(ల) కోసం మాత్రమే పరీక్షించు -- ప్యాకేజీ పేరులను కామాతో వేరుచేయి"
 
 #: ../check-language-support:30
 msgid "output all available language support packages for all languages"

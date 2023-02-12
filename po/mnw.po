@@ -5,20 +5,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Nautilus\n"
-"Report-Msgid-Bugs-To: "
-"http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus&keywords=I18N+L10N&c"
-"omponent=Internationalization (i18n)\n"
-"POT-Creation-Date: 2022-03-23 19:42+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-24 21:53+0000\n"
 "PO-Revision-Date: 2021-08-03 03:47+0000\n"
 "Last-Translator: Tao Mon Lae <Unknown>\n"
 "Language-Team: Burmese <my-l10n-team@googlegroups.com>\n"
+"Language: my\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
 "X-Generator: Launchpad (build 4c58cf79c82ce3fbd42288b21369cc838fb5b9e0)\n"
-"Language: my\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #. Hack for Chinese langpack split
@@ -32,133 +30,141 @@ msgstr "ဘာသာကြုက် (တရး)"
 msgid "Chinese (traditional)"
 msgstr "ဘာသာကြုက် (အခိုက်ကၞာ)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:233
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:236
 msgid "No language information available"
 msgstr "တၚ်နၚ်ဘာသာလဵုမွဲဟွံမွဲ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:234
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:237
 msgid ""
 "The system does not have information about the available languages yet. Do "
 "you want to perform a network update to get them now? "
-msgstr ""
-"အတၚ်နၚ်မဆေၚ်စပ်ကဵုဘာသာဂှ် ပ္ဍဲစက်ဟွံမွဲဏီ၊ ဆက်စၠောံကဵု အေန်တာနိတ် တုဲ "
-"မိက်ဂွံကေတ်တၟိလၟုဟ်ဟာ။ "
+msgstr "အတၚ်နၚ်မဆေၚ်စပ်ကဵုဘာသာဂှ် ပ္ဍဲစက်ဟွံမွဲဏီ၊ ဆက်စၠောံကဵု အေန်တာနိတ် တုဲ မိက်ဂွံကေတ်တၟိလၟုဟ်ဟာ။ "
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:238
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:241
 msgid "_Update"
 msgstr "_သၠုၚ်ပတိုန်"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:322
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:359
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:325
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:362
 #: ../data/LanguageSelector.ui.h:21
 msgid "Language"
 msgstr "ဘာသာ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:329
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:332
 msgid "Installed"
 msgstr "ပတိုန်တုဲယျ"
 
 #. print("%(INSTALL)d to install, %(REMOVE)d to remove" % (countInstall, countRemove))
 #. Translators: %(INSTALL)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "INSTALL".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:397
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:400
 #, python-format
 msgid "%(INSTALL)d to install"
 msgid_plural "%(INSTALL)d to install"
 msgstr[0] "သွက်ဂွံပတိုန်  %(INSTALL)d"
 
 #. Translators: %(REMOVE)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "REMOVE".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:399
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:402
 #, python-format
 msgid "%(REMOVE)d to remove"
 msgid_plural "%(REMOVE)d to remove"
 msgstr[0] "သွက်ဂွံပတိတ်%(REMOVE)d"
 
 #. Translators: this string will concatenate the "%n to install" and "%n to remove" strings, you can replace the comma if you need to.
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:408
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:411
 #, python-format
 msgid "%s, %s"
 msgstr "%s, %s"
 
 #. find out about the other options
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:456
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:459
 msgid "none"
 msgstr "မုဟွံမွဲ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:509
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:718
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:512
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:748
 msgid "Software database is broken"
 msgstr "သပ်ဝဲdatabaseလီုအာယျ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:510
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:719
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:513
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:749
 msgid ""
 "It is impossible to install or remove any software. Please use the package "
 "manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
 "this issue at first."
 msgstr ""
-"သပ်ဝဲစုတ်ပ္တိတ်ဟွံဂွံ၊ သုၚ်စောဲ package manager \"Synaptic\"ညိ၊ "
-"ဟွံသေၚ်သာ်ဂှ် သုၚ်စောဲ \"sudo apt-get install -f\"ပ္ဍဲ terminal တုဲ "
-"ပသောၚ်ပြဿနာ ကၠာညိ။"
+"သပ်ဝဲစုတ်ပ္တိတ်ဟွံဂွံ၊ သုၚ်စောဲ package manager \"Synaptic\"ညိ၊ ဟွံသေၚ်သာ်ဂှ် သုၚ်စောဲ \"sudo apt-"
+"get install -f\"ပ္ဍဲ terminal တုဲ ပသောၚ်ပြဿနာ ကၠာညိ။"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:551
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:554
 msgid "Could not install the selected language support"
 msgstr "ဘာသာထံက်ပၚ်ရုဲလဝ်ဂှ် ပ္တိုန်စုတ် ဟွံဂွံ၊"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:552
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:555
 msgid ""
 "This is perhaps a bug of this application. Please file a bug report at "
 "https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
 msgstr ""
-"ဣဏံဂှ် သပ်ဝဴbugမွဲဒှ်မာန်မံၚ်၊ သ္ပဂုဏ်တုဲ ပၠံၚ် bugပ္ဍဲ "
-"https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebugဏံညိ။"
+"ဣဏံဂှ် သပ်ဝဴbugမွဲဒှ်မာန်မံၚ်၊ သ္ပဂုဏ်တုဲ ပၠံၚ် bugပ္ဍဲ https://bugs.launchpad.net/ubuntu/+source/"
+"language-selector/+filebugဏံညိ။"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:576
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:612
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:579
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:615
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:619
 msgid "Could not install the full language support"
 msgstr "ဘာသာထံက်ပၚ်ပေၚ်ၚ် စုတ်ဟွံဂွံ။"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:577
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:580
 msgid ""
 "Usually this is related to an error in your software archive or software "
 "manager. Check your preferences in Software Sources (click the icon at the "
-"very right of the top bar and select \"System Settings... -> Software "
-"Sources\")."
+"very right of the top bar and select \"System Settings... -> Software Sources"
+"\")."
 msgstr ""
-"ဗွဲမဂၠိုၚ် ညအ်ဂှ်ဆက်စပ်ဒၟံၚ်ကဵု ပရေၚ်ယောၚ်ယာ အပ္ဍဲ သပ်ဝဴ မသီဂိုၚ် ဟွံသေၚ် "
-"မကောပ်ကာဲသောပ်ဝဲ. စၟဳစၟတ် ပရေၚ်နိဿဲ တၠအဲ အပ္ဍဲတမ်ရိုဟ် သပ်ဝဴတအ် "
-"(ဍဵုကေတ်သၚ်္ကေတ ပ္ဍဲဒကဴပုၚ်လ္ပာ်လ္တူ ကေုာံ ရုဲစှ်ကေတ် \"System Settings...-> "
+"ဗွဲမဂၠိုၚ် ညအ်ဂှ်ဆက်စပ်ဒၟံၚ်ကဵု ပရေၚ်ယောၚ်ယာ အပ္ဍဲ သပ်ဝဴ မသီဂိုၚ် ဟွံသေၚ် မကောပ်ကာဲသောပ်ဝဲ. စၟဳစၟတ် ပရေၚ်နိဿဲ တၠအဲ "
+"အပ္ဍဲတမ်ရိုဟ် သပ်ဝဴတအ် (ဍဵုကေတ်သၚ်္ကေတ ပ္ဍဲဒကဴပုၚ်လ္ပာ်လ္တူ ကေုာံ ရုဲစှ်ကေတ် \"System Settings...-> "
 "Software Sources\")."
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:613
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
 msgid "Failed to authorize to install packages."
 msgstr "ပ္တိုန်စုတ်ဟွံအံၚ်ဇၞး"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:671
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
+msgid "Failed to install packages. Please try again later."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#, fuzzy
+#| msgid "Installed Languages"
+msgid "Installing packages..."
+msgstr "ဘာသာပ္တိုန်စုတ်လဝ်ဂမၠိုၚ်"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
+msgid "Please wait while the packages are being installed."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
 msgstr "ဘာသာထံက်ပၚ် ပ္တိုန်ဟွံအံၚ်ဇၞး"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:702
 msgid ""
 "Some translations or writing aids available for your chosen languages are "
 "not installed yet. Do you want to install them now?"
-msgstr ""
-"ဘာသာကၠာဲလ္ၚဵုအရီုဗၚ်ချူကေုာံအတၚ်နၚ်ရုဲလဝ်သွက်ဘာသာဂမၠိုၚ်ဂှ်ပ္တိုန်ဂှ်ဟွံဂွံစု"
-"တ်ဏီ၊ မိက်ဂွံပ္တိုန်စုတ်လၟုဟ်ဟာ။"
+msgstr "ဘာသာကၠာဲလ္ၚဵုအရီုဗၚ်ချူကေုာံအတၚ်နၚ်ရုဲလဝ်သွက်ဘာသာဂမၠိုၚ်ဂှ်ပ္တိုန်ဂှ်ဟွံဂွံစုတ်ဏီ၊ မိက်ဂွံပ္တိုန်စုတ်လၟုဟ်ဟာ။"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:675
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:705
 msgid "_Remind Me Later"
 msgstr "မဏေံတှ်ေကဵုသတိညိ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:676
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:706
 msgid "_Install"
 msgstr "_ပ္တိုန်စုတ်"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:679
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:709
 msgid "Details"
 msgstr "သောဲသောဲဗြောဲဗြောဲ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:943
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:973
 #, python-format
 msgid ""
 "Failed to apply the '%s' format\n"
@@ -192,9 +198,7 @@ msgstr "ဘာသာပ္တိုန်စုတ်လဝ်ဂမၠိုၚ
 msgid ""
 "When a language is installed, individual users can choose it in their "
 "Language settings."
-msgstr ""
-"ဘာသာမွဲမွဲပ္တိုန်လဝ်တုဲမ္ဂး၊ ဇၟာပ်မၞိဟ်မသုၚ်စောဲ လုပ်စိုပ်ပၠေဝ်ပၠေတ်ပ္ဍဲ "
-"Language settingsမာန်"
+msgstr "ဘာသာမွဲမွဲပ္တိုန်လဝ်တုဲမ္ဂး၊ ဇၟာပ်မၞိဟ်မသုၚ်စောဲ လုပ်စိုပ်ပၠေဝ်ပၠေတ်ပ္ဍဲ Language settingsမာန်"
 
 #: ../data/LanguageSelector.ui.h:7
 msgid "Language for menus and windows:"
@@ -211,12 +215,10 @@ msgid ""
 "\"English\".\n"
 "Every entry below \"English\" will be ignored."
 msgstr ""
-"ပြံၚ်သၠာဲလဝ်လၟုဟ်ဏံဂှ်အာပြံၚ်အာပ္ဍဲကဵုဘာသာ သပ်ဝဴ ကေုာံ ဒက်စတပ် တံမွဲဟေၚ်ရ။ "
-"ပ္ဍဲကဵု အခိၚ်၊ စၟတ်တ္ၚဲ၊  သၠုဲ ကေုာံ ဗွိုၚ်တၞဟ်ဟ်တံဟွံပြံၚ်ရ။ မိက်ဂွံပြံၚ် "
-"စၟတ်တ္ၚဲတံ မုတံမ္ဂး အာပ္ဍဲ ဒၞါဲပြံၚ်သၠာဲ သၞောဝ်ဒေသညိ။\n"
-"လၟေၚ်ပြံၚ်သၠာဲဣဏံ ဖျေံသ္ဂုတ်သွာတ် သွက်ဘာသာဓမံက်ပ္ဍဲစက်တေံရ။ ယဝ်ရ အရေဝ်ဘာသာ "
-"သွက်ဘာသာပိုဲ ဟွံမွဲမ္ဂး၊ ဘာသာကၠုၚ်ဂတနူဂှ်ဍေံထ္ၜးအာဏောၚ်။ "
-"ဘာသာလုပ်ထ္ၜးလက်ကရဴအိုတ်ဂှ် \"အေၚ်္ဂလိက်\" တွဵုရ။"
+"ပြံၚ်သၠာဲလဝ်လၟုဟ်ဏံဂှ်အာပြံၚ်အာပ္ဍဲကဵုဘာသာ သပ်ဝဴ ကေုာံ ဒက်စတပ် တံမွဲဟေၚ်ရ။ ပ္ဍဲကဵု အခိၚ်၊ စၟတ်တ္ၚဲ၊  သၠုဲ ကေုာံ "
+"ဗွိုၚ်တၞဟ်ဟ်တံဟွံပြံၚ်ရ။ မိက်ဂွံပြံၚ် စၟတ်တ္ၚဲတံ မုတံမ္ဂး အာပ္ဍဲ ဒၞါဲပြံၚ်သၠာဲ သၞောဝ်ဒေသညိ။\n"
+"လၟေၚ်ပြံၚ်သၠာဲဣဏံ ဖျေံသ္ဂုတ်သွာတ် သွက်ဘာသာဓမံက်ပ္ဍဲစက်တေံရ။ ယဝ်ရ အရေဝ်ဘာသာ သွက်ဘာသာပိုဲ ဟွံမွဲမ္ဂး၊ "
+"ဘာသာကၠုၚ်ဂတနူဂှ်ဍေံထ္ၜးအာဏောၚ်။ ဘာသာလုပ်ထ္ၜးလက်ကရဴအိုတ်ဂှ် \"အေၚ်္ဂလိက်\" တွဵုရ။"
 
 #: ../data/LanguageSelector.ui.h:11
 msgid ""
@@ -232,8 +234,8 @@ msgstr "ပြံၚ်သၠာဲအလုံစက်"
 
 #: ../data/LanguageSelector.ui.h:14
 msgid ""
-"<small>Use the same language choices for startup and the login "
-"screen.</small>"
+"<small>Use the same language choices for startup and the login screen.</"
+"small>"
 msgstr "<small>သုၚ်စောဲဘာသာတုပ်ပ်ကဵုနူစလုပ်ကၠုၚ်တေံ</small>"
 
 #: ../data/LanguageSelector.ui.h:15
@@ -256,11 +258,9 @@ msgid ""
 "corresponding packages first and then choose the desired system here."
 msgstr ""
 "ယဝ်မၞး ဒးတက်လိက် ဘာသာ ဒးသုၚ်စောဲ မလိက် ယှုက်က်တံမ္ဂး ပံက် ဖှန်ရှေန်ဏံညိ။\n"
-"ဥပမာမ္ဂး ယဝ်မၞးသုၚ်စောဲ ဘာသာကြုက်၊ ဂျပါန်၊ ကဝ်ရဳယြာ ကေုာံ ဗဳယာန်နာမ် "
-"မ္ဂးဒးပံက် ဖှန်ရှေန်ဏံထေက်ရ။ \n"
+"ဥပမာမ္ဂး ယဝ်မၞးသုၚ်စောဲ ဘာသာကြုက်၊ ဂျပါန်၊ ကဝ်ရဳယြာ ကေုာံ ဗဳယာန်နာမ် မ္ဂးဒးပံက် ဖှန်ရှေန်ဏံထေက်ရ။ \n"
 "သွက်ဥူပုန်ထူမ္ဂး ကဵုလဝ်ပထမဂှ် \"IBUS\" ရ။\n"
-"ယဝ်မိက်ဂွံသုၚ်စောဲ ကောန်ဍေၚ်တၞဟ်ဟ်တှ်ေ ကၠာအိုတ် "
-"ပ္တိုန်ကောန်ဍေၚ်မိက်ဂွံသုၚ်စောဲတံကၠာတုဲမှ ကၠုၚ်ပြံၚ်အဏံညိ။"
+"ယဝ်မိက်ဂွံသုၚ်စောဲ ကောန်ဍေၚ်တၞဟ်ဟ်တှ်ေ ကၠာအိုတ် ပ္တိုန်ကောန်ဍေၚ်မိက်ဂွံသုၚ်စောဲတံကၠာတုဲမှ ကၠုၚ်ပြံၚ်အဏံညိ။"
 
 #: ../data/LanguageSelector.ui.h:22
 msgid "Display numbers, dates and currency amounts in the usual format for:"
@@ -276,8 +276,7 @@ msgid ""
 "are located."
 msgstr ""
 "သၞောတ်စက်ပိုဲပြံၚ်သၠာဲအာအလုံစက်အတိုၚ် ပလေဝ်ပြံၚ်သၠာဲလဝ်ဣဏံရောၚ်။ \n"
-"ယဝ်မၞးမိက်ဂွံကဵုထ္ၜး မလိက်ဘာသာ ပဵုနူဏံမ္ဂး အာပ္ဍဲ က္ဍိုပ် \"ဘာသာ\" တေံတုဲ "
-"သၠာဲညိ။\n"
+"ယဝ်မၞးမိက်ဂွံကဵုထ္ၜး မလိက်ဘာသာ ပဵုနူဏံမ္ဂး အာပ္ဍဲ က္ဍိုပ် \"ဘာသာ\" တေံတုဲ သၠာဲညိ။\n"
 "ဆ္ဂး သုၚ်ကဵုကသပ်သုၚ်စောဲ ဆက်စပ်ကဵု ဒၞါဲမၞးဌာန်ဒၟံၚ်မၞးညိ။"
 
 #: ../data/LanguageSelector.ui.h:26
@@ -287,8 +286,7 @@ msgstr "<small>ကလေၚ်လုပ်မွဲတဲပၠန်မှဍ�
 #: ../data/LanguageSelector.ui.h:27
 msgid ""
 "<small>Use the same format choice for startup and the login screen.</small>"
-msgstr ""
-"<small>ပံက်စက်ကီု ပ္ဍဲမုက်လုပ်စက် ကီုဂှ်သုၚ်စောဲ ဗီုပြၚ်တုပ်ပ်</small>"
+msgstr "<small>ပံက်စက်ကီု ပ္ဍဲမုက်လုပ်စက် ကီုဂှ်သုၚ်စောဲ ဗီုပြၚ်တုပ်ပ်</small>"
 
 #: ../data/LanguageSelector.ui.h:28
 msgid "Currency:"
@@ -323,17 +321,15 @@ msgstr "ဘာသာထံက်ပၚ်ဟွံဍိုက်ပေၚ်"
 #: ../data/incomplete-language-support-gnome.note.in:6
 msgid ""
 "The language support files for your selected language seem to be incomplete. "
-"You can install the missing components by clicking on \"Run this action "
-"now\" and follow the instructions. An active internet connection is "
-"required. If you would like to do this at a later time, please use Language "
-"Support instead (click the icon at the very right of the top bar and select "
-"\"System Settings... -> Language Support\")."
+"You can install the missing components by clicking on \"Run this action now"
+"\" and follow the instructions. An active internet connection is required. "
+"If you would like to do this at a later time, please use Language Support "
+"instead (click the icon at the very right of the top bar and select \"System "
+"Settings... -> Language Support\")."
 msgstr ""
-"အရေဝ်ဘာသာ သွက်ဘသာ မၞးရုဲစှ်လဝ်ဂှ်ဟွံတုဲဍိုက်ပေၚ်ဏီရ။ ဍဵုလ္တူ "
-"\"စကၠောန်လၟုဟ်\" တုဲ မၞးစုတ်အရာသှ်ေသၟေဟ်မံၚ်တံမာန်ရ။ အေန်တာနိတ် "
-"ဒးကေတ်ဒးနွံရောၚ်။ တုဲမှမိက်ဂွံသ္ပမ္ဂး သုၚ်စောဲ သာသာအထံက်အပၚ်ညိ (ဍဵုလ္တူ "
-"တဆိပ် လ္ပာ်တဲပုၚ်တဝ်ဝ်လ္တူ မုက်စက်တေံတုဲ ရုဲ \"ဒၞါဲပလေဝ်စအလုံစက်...-> "
-"ဘာသာထံက်ပၚ်) ညိ။"
+"အရေဝ်ဘာသာ သွက်ဘသာ မၞးရုဲစှ်လဝ်ဂှ်ဟွံတုဲဍိုက်ပေၚ်ဏီရ။ ဍဵုလ္တူ \"စကၠောန်လၟုဟ်\" တုဲ မၞးစုတ်အရာသှ်ေသၟေဟ်မံၚ်တံမာန်ရ။ "
+"အေန်တာနိတ် ဒးကေတ်ဒးနွံရောၚ်။ တုဲမှမိက်ဂွံသ္ပမ္ဂး သုၚ်စောဲ သာသာအထံက်အပၚ်ညိ (ဍဵုလ္တူ တဆိပ် လ္ပာ်တဲပုၚ်တဝ်ဝ်လ္တူ "
+"မုက်စက်တေံတုဲ ရုဲ \"ဒၞါဲပလေဝ်စအလုံစက်...-> ဘာသာထံက်ပၚ်) ညိ။"
 
 #. Name
 #: ../data/restart_session_required.note.in:5
