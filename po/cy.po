@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 19:42+0000\n"
+"POT-Creation-Date: 2022-12-24 21:53+0000\n"
 "PO-Revision-Date: 2021-05-16 20:45+0000\n"
 "Last-Translator: Llwyd <Unknown>\n"
 "Language-Team: Welsh <enghraifft@ebost.com>\n"
+"Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +20,6 @@ msgstr ""
 "2 : 3;\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
 "X-Generator: Launchpad (build 4c58cf79c82ce3fbd42288b21369cc838fb5b9e0)\n"
-"Language: cy\n"
 
 #. Hack for Chinese langpack split
 #. Translators: please translate 'Chinese (simplified)' and 'Chinese (traditional)' so that they appear next to each other when sorted alphabetically.
@@ -32,11 +32,11 @@ msgstr "Tsieinëeg (wedi symleiddio)"
 msgid "Chinese (traditional)"
 msgstr "Tsieinëeg (traddodiadol)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:233
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:236
 msgid "No language information available"
 msgstr "Dim gwybodaeth ieithoedd ar gael"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:234
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:237
 msgid ""
 "The system does not have information about the available languages yet. Do "
 "you want to perform a network update to get them now? "
@@ -44,23 +44,23 @@ msgstr ""
 "Nid oes gan y system wybodaeth am yr ieithoedd sydd ar gael eto. Hoffech chi "
 "ddiweddaru i'w llwytho nawr? "
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:238
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:241
 msgid "_Update"
 msgstr "_Diweddaru"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:322
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:359
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:325
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:362
 #: ../data/LanguageSelector.ui.h:21
 msgid "Language"
 msgstr "Iaith"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:329
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:332
 msgid "Installed"
 msgstr "Wedi'i gosod"
 
 #. print("%(INSTALL)d to install, %(REMOVE)d to remove" % (countInstall, countRemove))
 #. Translators: %(INSTALL)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "INSTALL".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:397
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:400
 #, python-format
 msgid "%(INSTALL)d to install"
 msgid_plural "%(INSTALL)d to install"
@@ -70,7 +70,7 @@ msgstr[2] "%(INSTALL)d i'w gosod"
 msgstr[3] "%(INSTALL)d i'w gosod"
 
 #. Translators: %(REMOVE)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "REMOVE".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:399
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:402
 #, python-format
 msgid "%(REMOVE)d to remove"
 msgid_plural "%(REMOVE)d to remove"
@@ -80,23 +80,23 @@ msgstr[2] "%(REMOVE)d i'w tynnu"
 msgstr[3] "%(REMOVE)d i'w tynnu"
 
 #. Translators: this string will concatenate the "%n to install" and "%n to remove" strings, you can replace the comma if you need to.
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:408
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:411
 #, python-format
 msgid "%s, %s"
 msgstr "%s, %s"
 
 #. find out about the other options
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:456
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:459
 msgid "none"
 msgstr "dim"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:509
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:718
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:512
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:748
 msgid "Software database is broken"
 msgstr "Mae'r gronfa ddata meddalwedd wedi torri"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:510
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:719
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:513
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:749
 msgid ""
 "It is impossible to install or remove any software. Please use the package "
 "manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
@@ -106,45 +106,59 @@ msgstr ""
 "\"Synaptic\" neu redeg \"sudo apt-get install -f\" mewn terfynell i drwsio'r "
 "broblem."
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:551
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:554
 msgid "Could not install the selected language support"
 msgstr "Methu gosod y cymorth iaith a ddewiswyd"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:552
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:555
 msgid ""
 "This is perhaps a bug of this application. Please file a bug report at "
 "https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
 msgstr ""
-"Gall fod yna nam yn y rhaglen hon. Adroddwch am nam drwy "
-"https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
+"Gall fod yna nam yn y rhaglen hon. Adroddwch am nam drwy https://bugs."
+"launchpad.net/ubuntu/+source/language-selector/+filebug"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:576
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:612
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:579
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:615
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:619
 msgid "Could not install the full language support"
 msgstr "Methu gosod y cymorth iaith llawn"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:577
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:580
 msgid ""
 "Usually this is related to an error in your software archive or software "
 "manager. Check your preferences in Software Sources (click the icon at the "
-"very right of the top bar and select \"System Settings... -> Software "
-"Sources\")."
+"very right of the top bar and select \"System Settings... -> Software Sources"
+"\")."
 msgstr ""
 "Fel arfer mae hyn yn gysylltiedig â gwall yn eich archif meddalwedd neu "
 "reolwr meddalwedd. Gwiriwch eich dewisiadau yn Ffynonellau Meddalwedd "
 "(cliciwch ar yr eicon ar y dde eithaf o'r bar uchaf a dewis \"Gosodiadau "
 "System... -> Ffynonellau Meddalwedd\")."
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:613
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
 msgid "Failed to authorize to install packages."
 msgstr "Methwyd dilysu er mwyn gosod pecynnau."
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:671
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
+msgid "Failed to install packages. Please try again later."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#, fuzzy
+#| msgid "Installed Languages"
+msgid "Installing packages..."
+msgstr "Ieithoedd wedi'u gosod"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
+msgid "Please wait while the packages are being installed."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
 msgstr "Ni chafodd y cymorth iaith ei osod yn llawn"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:702
 msgid ""
 "Some translations or writing aids available for your chosen languages are "
 "not installed yet. Do you want to install them now?"
@@ -152,19 +166,19 @@ msgstr ""
 "Mae rhai cyfieithiadau a chynorthwyon ysgrifennu ar gyfer yr iaith a "
 "ddewisoch chi heb gael eu gosod eto. Hoffech chi eu gosod nawr?"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:675
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:705
 msgid "_Remind Me Later"
 msgstr "_Atgoffa fi nes ymlaen"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:676
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:706
 msgid "_Install"
 msgstr "_Gosod"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:679
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:709
 msgid "Details"
 msgstr "Manylion"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:943
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:973
 #, python-format
 msgid ""
 "Failed to apply the '%s' format\n"
@@ -242,8 +256,8 @@ msgstr "Gweithredu ar draws y system"
 
 #: ../data/LanguageSelector.ui.h:14
 msgid ""
-"<small>Use the same language choices for startup and the login "
-"screen.</small>"
+"<small>Use the same language choices for startup and the login screen.</"
+"small>"
 msgstr ""
 "<small>Defnyddiwch yr un dewisiadau iaith ar gyfer cychwyn y system a'r "
 "sgrin mewngofnodi.</small>"
@@ -278,8 +292,7 @@ msgstr ""
 
 #: ../data/LanguageSelector.ui.h:22
 msgid "Display numbers, dates and currency amounts in the usual format for:"
-msgstr ""
-"Dangos rhifau, dyddiadau a symiau arian yn y fformat arferol ar gyfer:"
+msgstr "Dangos rhifau, dyddiadau a symiau arian yn y fformat arferol ar gyfer:"
 
 #: ../data/LanguageSelector.ui.h:23
 msgid ""
@@ -343,11 +356,11 @@ msgstr "Cymorth iaith anghyflawn"
 #: ../data/incomplete-language-support-gnome.note.in:6
 msgid ""
 "The language support files for your selected language seem to be incomplete. "
-"You can install the missing components by clicking on \"Run this action "
-"now\" and follow the instructions. An active internet connection is "
-"required. If you would like to do this at a later time, please use Language "
-"Support instead (click the icon at the very right of the top bar and select "
-"\"System Settings... -> Language Support\")."
+"You can install the missing components by clicking on \"Run this action now"
+"\" and follow the instructions. An active internet connection is required. "
+"If you would like to do this at a later time, please use Language Support "
+"instead (click the icon at the very right of the top bar and select \"System "
+"Settings... -> Language Support\")."
 msgstr ""
 "Nid yw'r ffeiliau cymorth iaith ar gyfer yr iaith a ddewisoch yn gyflawn. "
 "Gallwch osod y cydrannau coll drwy glicio ar \"Rhedeg y weithred hon nawr\" "

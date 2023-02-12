@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-23 19:42+0000\n"
+"POT-Creation-Date: 2022-12-24 21:53+0000\n"
 "PO-Revision-Date: 2019-11-04 06:30+0000\n"
 "Last-Translator: Launchpad Translations Administrators <Unknown>\n"
 "Language-Team: Malayalam <ml@li.org>\n"
+"Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
 "X-Generator: Launchpad (build 4c58cf79c82ce3fbd42288b21369cc838fb5b9e0)\n"
-"Language: ml\n"
 
 #. Hack for Chinese langpack split
 #. Translators: please translate 'Chinese (simplified)' and 'Chinese (traditional)' so that they appear next to each other when sorted alphabetically.
@@ -30,36 +30,35 @@ msgstr "ചൈനീസ് (ലഘൂകരിച്ചത്)"
 msgid "Chinese (traditional)"
 msgstr "ചൈനീസ് (പരമ്പരാഗതം)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:233
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:236
 msgid "No language information available"
 msgstr "ഭാഷാ സംബന്ധമായ വിവരങ്ങള്‍ ഒന്നും ലഭ്യമല്ല"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:234
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:237
 msgid ""
 "The system does not have information about the available languages yet. Do "
 "you want to perform a network update to get them now? "
 msgstr ""
-"ലഭ്യമായ ഭാഷകളെക്കുറിച്ചുള്ള വിവരങ്ങളൊന്നും ഈ സിസ്റ്റത്തില്‍ ഇല്ല, ഈ "
-"വിവരങ്ങള്‍ക്കായി നെറ്റ്‌വര്‍ക്കിലൂടെ ഒരു അപ്ഡേറ്റ് നടത്താന്‍ താങ്കള്‍ക്ക് "
-"താല്‍പര്യമുണ്ടോ? "
+"ലഭ്യമായ ഭാഷകളെക്കുറിച്ചുള്ള വിവരങ്ങളൊന്നും ഈ സിസ്റ്റത്തില്‍ ഇല്ല, ഈ വിവരങ്ങള്‍ക്കായി നെറ്റ്‌വര്‍"
+"ക്കിലൂടെ ഒരു അപ്ഡേറ്റ് നടത്താന്‍ താങ്കള്‍ക്ക് താല്‍പര്യമുണ്ടോ? "
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:238
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:241
 msgid "_Update"
 msgstr "പുതുക്കുക (_U)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:322
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:359
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:325
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:362
 #: ../data/LanguageSelector.ui.h:21
 msgid "Language"
 msgstr "ഭാഷ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:329
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:332
 msgid "Installed"
 msgstr "സജ്ജമാക്കപ്പെട്ട"
 
 #. print("%(INSTALL)d to install, %(REMOVE)d to remove" % (countInstall, countRemove))
 #. Translators: %(INSTALL)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "INSTALL".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:397
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:400
 #, python-format
 msgid "%(INSTALL)d to install"
 msgid_plural "%(INSTALL)d to install"
@@ -67,7 +66,7 @@ msgstr[0] "%(INSTALL)d എണ്ണം ഇന്‍സ്റ്റാള്‍ �
 msgstr[1] "%(INSTALL)d എണ്ണം ഇന്‍സ്റ്റാള്‍ ചെയ്യാനുണ്ട്"
 
 #. Translators: %(REMOVE)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "REMOVE".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:399
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:402
 #, python-format
 msgid "%(REMOVE)d to remove"
 msgid_plural "%(REMOVE)d to remove"
@@ -75,89 +74,100 @@ msgstr[0] "%(REMOVE)d എണ്ണം നീക്കം ചെയ്യേണ�
 msgstr[1] "%(REMOVE)d എണ്ണം നീക്കം ചെയ്യേണ്ടതുണ്ട്"
 
 #. Translators: this string will concatenate the "%n to install" and "%n to remove" strings, you can replace the comma if you need to.
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:408
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:411
 #, python-format
 msgid "%s, %s"
 msgstr "%s, %s"
 
 #. find out about the other options
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:456
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:459
 msgid "none"
 msgstr "ഒന്നുമില്ല"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:509
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:718
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:512
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:748
 msgid "Software database is broken"
 msgstr "സോഫ്റ്റ്‌വെയര്‍  ഡാറ്റാബേസിന് തകരാര്‍ സംഭവച്ചിരിക്കുന്നു"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:510
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:719
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:513
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:749
 msgid ""
 "It is impossible to install or remove any software. Please use the package "
 "manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
 "this issue at first."
 msgstr ""
-"നിങ്ങള്‍ക്ക്  സോഫ്റ്റ്‌വെയര്‍  ഇന്‍സ്റ്റോള്‍  ചെയ്യാനോ ഒഴിവാക്കാനോ കഴിയില്ല. "
-"ഇത് പരിഹരിക്കാന്‍ ദയവായി സിനാപ്റ്റിക്ക് (Synaptic) പാക്കേജ് മാനേജര്‍ "
-"ഉപയോഗിക്കുക അല്ലെങ്കില്‍ \"sudo apt-get install -f\" എന്ന കമാന്‍ഡ് "
-"ടെര്‍മിനലില്‍ നല്‍കുക ചെയ്യുക"
+"നിങ്ങള്‍ക്ക്  സോഫ്റ്റ്‌വെയര്‍  ഇന്‍സ്റ്റോള്‍  ചെയ്യാനോ ഒഴിവാക്കാനോ കഴിയില്ല. ഇത് പരിഹരിക്കാന്‍ "
+"ദയവായി സിനാപ്റ്റിക്ക് (Synaptic) പാക്കേജ് മാനേജര്‍ ഉപയോഗിക്കുക അല്ലെങ്കില്‍ \"sudo apt-get "
+"install -f\" എന്ന കമാന്‍ഡ് ടെര്‍മിനലില്‍ നല്‍കുക ചെയ്യുക"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:551
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:554
 msgid "Could not install the selected language support"
-msgstr ""
-"തിരഞ്ഞെടുത്തിരിക്കുന്ന ഭാഷയ്ക്കു ആവശ്യമായ പിന്തുണ ഇന്‍സ്റ്റാള്‍ ചെയ്യാന്‍ "
-"സാധിച്ചില്ല"
+msgstr "തിരഞ്ഞെടുത്തിരിക്കുന്ന ഭാഷയ്ക്കു ആവശ്യമായ പിന്തുണ ഇന്‍സ്റ്റാള്‍ ചെയ്യാന്‍ സാധിച്ചില്ല"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:552
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:555
 msgid ""
 "This is perhaps a bug of this application. Please file a bug report at "
 "https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
 msgstr ""
-"ഒരു പക്ഷെ ഇത് ഈ ആപ്ലിക്കേഷനിലെ ഒരു പിശകായിരിക്കും. ദയവായി ഇതിനെപ്പറ്റി "
-"അറിവുള്ള കാര്യങ്ങള്‍  https://bugs.launchpad.net/ubuntu/+source/language-"
-"selector/+filebug എന്ന താളില്‍ രേഖപ്പെടുത്തുക"
+"ഒരു പക്ഷെ ഇത് ഈ ആപ്ലിക്കേഷനിലെ ഒരു പിശകായിരിക്കും. ദയവായി ഇതിനെപ്പറ്റി അറിവുള്ള കാര്യങ്ങള്‍  "
+"https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug എന്ന "
+"താളില്‍ രേഖപ്പെടുത്തുക"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:576
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:612
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:579
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:615
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:619
 msgid "Could not install the full language support"
 msgstr "മുഴുവ൯ ഭാഷാസഹായവും ഇ൯സ്റ്റാള്‍ ചെയ്യാന്‍ കഴിഞ്ഞില്ല"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:577
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:580
 msgid ""
 "Usually this is related to an error in your software archive or software "
 "manager. Check your preferences in Software Sources (click the icon at the "
-"very right of the top bar and select \"System Settings... -> Software "
-"Sources\")."
+"very right of the top bar and select \"System Settings... -> Software Sources"
+"\")."
 msgstr ""
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:613
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
 msgid "Failed to authorize to install packages."
 msgstr ""
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:671
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
+msgid "Failed to install packages. Please try again later."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#, fuzzy
+#| msgid "Installed Languages"
+msgid "Installing packages..."
+msgstr "ഇന്‍സ്റ്റാള്‍ ചെയ്യപ്പെട്ട ഭാഷകള്‍"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
+msgid "Please wait while the packages are being installed."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
 msgstr "ഭാഷാസഹായം മുഴുവനായി സജ്ജീകരിക്കപ്പെട്ടിട്ടില്ല."
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:702
 msgid ""
 "Some translations or writing aids available for your chosen languages are "
 "not installed yet. Do you want to install them now?"
 msgstr ""
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:675
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:705
 msgid "_Remind Me Later"
 msgstr "പിന്നീട് ഓര്‍മ്മിപ്പിക്കുക (_R)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:676
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:706
 msgid "_Install"
 msgstr "സംസ്ഥാപിക്കുക (_I)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:679
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:709
 msgid "Details"
 msgstr "വിശദാംശങ്ങള്‍"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:943
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:973
 #, python-format
 msgid ""
 "Failed to apply the '%s' format\n"
@@ -216,8 +226,8 @@ msgstr ""
 
 #: ../data/LanguageSelector.ui.h:14
 msgid ""
-"<small>Use the same language choices for startup and the login "
-"screen.</small>"
+"<small>Use the same language choices for startup and the login screen.</"
+"small>"
 msgstr ""
 
 #: ../data/LanguageSelector.ui.h:15
@@ -296,11 +306,11 @@ msgstr "അപൂ൪ണമായ ഭാഷാ പിന്തുണ"
 #: ../data/incomplete-language-support-gnome.note.in:6
 msgid ""
 "The language support files for your selected language seem to be incomplete. "
-"You can install the missing components by clicking on \"Run this action "
-"now\" and follow the instructions. An active internet connection is "
-"required. If you would like to do this at a later time, please use Language "
-"Support instead (click the icon at the very right of the top bar and select "
-"\"System Settings... -> Language Support\")."
+"You can install the missing components by clicking on \"Run this action now"
+"\" and follow the instructions. An active internet connection is required. "
+"If you would like to do this at a later time, please use Language Support "
+"instead (click the icon at the very right of the top bar and select \"System "
+"Settings... -> Language Support\")."
 msgstr ""
 
 #. Name

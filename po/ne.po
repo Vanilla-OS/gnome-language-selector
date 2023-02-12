@@ -6,11 +6,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-03-23 19:42+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-24 21:53+0000\n"
 "PO-Revision-Date: 2019-11-04 06:30+0000\n"
 "Last-Translator: Launchpad Translations Administrators <Unknown>\n"
 "Language-Team: Nepali <ne@li.org>\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,35 +30,35 @@ msgstr "चीनीयाँ (सरलीकृत)"
 msgid "Chinese (traditional)"
 msgstr "चीनीया (परम्परागत)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:233
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:236
 msgid "No language information available"
 msgstr "कुनै भाषा सम्बन्धी सूचना प्राप्य छैन"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:234
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:237
 msgid ""
 "The system does not have information about the available languages yet. Do "
 "you want to perform a network update to get them now? "
 msgstr ""
-"यो प्रणालीमा अहिलेसम्म प्राप्य भाषाहरूको सूचना छैन। के तपाई तिनीहरूलाई "
-"प्राप्त गर्नको लागि संजाल अद्यावधिक गर्न चाहनुहुन्छ? "
+"यो प्रणालीमा अहिलेसम्म प्राप्य भाषाहरूको सूचना छैन। के तपाई तिनीहरूलाई प्राप्त गर्नको "
+"लागि संजाल अद्यावधिक गर्न चाहनुहुन्छ? "
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:238
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:241
 msgid "_Update"
 msgstr "अद्यावधिक (_U)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:322
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:359
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:325
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:362
 #: ../data/LanguageSelector.ui.h:21
 msgid "Language"
 msgstr "भाषा"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:329
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:332
 msgid "Installed"
 msgstr "स्थापित"
 
 #. print("%(INSTALL)d to install, %(REMOVE)d to remove" % (countInstall, countRemove))
 #. Translators: %(INSTALL)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "INSTALL".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:397
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:400
 #, python-format
 msgid "%(INSTALL)d to install"
 msgid_plural "%(INSTALL)d to install"
@@ -65,7 +66,7 @@ msgstr[0] "%(INSTALL)d प्रतिस्थापनको लागि"
 msgstr[1] "%(INSTALL)d प्रतिस्थापनको लागि"
 
 #. Translators: %(REMOVE)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "REMOVE".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:399
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:402
 #, python-format
 msgid "%(REMOVE)d to remove"
 msgid_plural "%(REMOVE)d to remove"
@@ -73,99 +74,111 @@ msgstr[0] "%(REMOVE)d हटाउनको लागि"
 msgstr[1] "%(REMOVE)d हटाउनको लागि"
 
 #. Translators: this string will concatenate the "%n to install" and "%n to remove" strings, you can replace the comma if you need to.
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:408
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:411
 #, python-format
 msgid "%s, %s"
 msgstr "%s, %s"
 
 #. find out about the other options
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:456
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:459
 msgid "none"
 msgstr "केही पनि"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:509
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:718
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:512
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:748
 msgid "Software database is broken"
 msgstr "सफ्टवेर डेटाबेस बिग्रेको छ।"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:510
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:719
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:513
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:749
 msgid ""
 "It is impossible to install or remove any software. Please use the package "
 "manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
 "this issue at first."
 msgstr ""
-"कुनै पनि सफ्टवेर स्थापना वा बिस्थापन गर्न सम्भव छैन। कृपया, यो समस्या  "
-"समाधान गर्न \"synaptic\" package manager प्रयोग गर्नुहोस्   अथवा terminal मा "
-"गएर \"sudo apt-get install -f\"  रन गर्नुहोस्।"
+"कुनै पनि सफ्टवेर स्थापना वा बिस्थापन गर्न सम्भव छैन। कृपया, यो समस्या  समाधान गर्न "
+"\"synaptic\" package manager प्रयोग गर्नुहोस्   अथवा terminal मा गएर \"sudo apt-"
+"get install -f\"  रन गर्नुहोस्।"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:551
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:554
 msgid "Could not install the selected language support"
 msgstr "छनौट गरिएको भाषा समर्थन प्रतिस्थापन गर्न सकिएन"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:552
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:555
 msgid ""
 "This is perhaps a bug of this application. Please file a bug report at "
 "https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
 msgstr ""
-"सम्भवतः यो यस अनुप्रयोगको त्रुटि हो। कृपया यस त्रुटि प्रतिवेदनलाई "
-"https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug मा "
-"दर्ता गर्नुहोस्।"
+"सम्भवतः यो यस अनुप्रयोगको त्रुटि हो। कृपया यस त्रुटि प्रतिवेदनलाई https://bugs."
+"launchpad.net/ubuntu/+source/language-selector/+filebug मा दर्ता गर्नुहोस्।"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:576
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:612
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:579
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:615
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:619
 msgid "Could not install the full language support"
 msgstr "पूर्ण भाषा समर्थन प्रतिस्थापन गर्न सकिएन"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:577
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:580
 msgid ""
 "Usually this is related to an error in your software archive or software "
 "manager. Check your preferences in Software Sources (click the icon at the "
-"very right of the top bar and select \"System Settings... -> Software "
-"Sources\")."
+"very right of the top bar and select \"System Settings... -> Software Sources"
+"\")."
 msgstr ""
-"सामान्यतया यो त्रुटि तपाईको सफ्टवेएर मेनेजर सँग सम्बन्धित छ । सफ्टवेएर "
-"स्रोतमा तपाईको प्राथमिकताहरू चेक गर्नुहोस्"
+"सामान्यतया यो त्रुटि तपाईको सफ्टवेएर मेनेजर सँग सम्बन्धित छ । सफ्टवेएर स्रोतमा तपाईको "
+"प्राथमिकताहरू चेक गर्नुहोस्"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:613
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
 msgid "Failed to authorize to install packages."
 msgstr "प्याकेजहरू स्थापना गर्न अथोरायिज गर्न असफल भयो।"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:671
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
+msgid "Failed to install packages. Please try again later."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#, fuzzy
+#| msgid "Installed Languages"
+msgid "Installing packages..."
+msgstr "स्थापित भाषाहरु"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
+msgid "Please wait while the packages are being installed."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
 msgstr "भाषा समर्थन पूर्ण रुपमा प्रतिस्थापन गरिएको छैन"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:702
 msgid ""
 "Some translations or writing aids available for your chosen languages are "
 "not installed yet. Do you want to install them now?"
 msgstr ""
-"तपाईको छानिएको भाषाहरूको लागि प्राप्य कुनै अनुवाद वा लेखन सहायताहरू "
-"अहिलेसम्म प्रतिस्थापन गरिएको छैन। के तपाई तिनीहरूलाई प्रतिस्थापन गर्न चाहनु "
-"हुन्छ?"
+"तपाईको छानिएको भाषाहरूको लागि प्राप्य कुनै अनुवाद वा लेखन सहायताहरू अहिलेसम्म "
+"प्रतिस्थापन गरिएको छैन। के तपाई तिनीहरूलाई प्रतिस्थापन गर्न चाहनु हुन्छ?"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:675
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:705
 msgid "_Remind Me Later"
 msgstr "मलाई पछि सम्झाउनुहोस् (_R)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:676
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:706
 msgid "_Install"
 msgstr "प्रतिस्थापन गर्नुहोस् (_I)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:679
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:709
 msgid "Details"
 msgstr "विस्तृत विवरण"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:943
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:973
 #, python-format
 msgid ""
 "Failed to apply the '%s' format\n"
 "choice. The examples may show up if you\n"
 "close and re-open Language Support."
 msgstr ""
-"'%s ' ढाँचा विकल्प लागू गर्न असफल । यदि तपाईले भाषा समर्थन बन्द अथवा "
-"पुन:खोल्नुभयो भनि उदाहरणहरु देखा पर्नेछन् ।"
+"'%s ' ढाँचा विकल्प लागू गर्न असफल । यदि तपाईले भाषा समर्थन बन्द अथवा पुन:खोल्नुभयो भनि "
+"उदाहरणहरु देखा पर्नेछन् ।"
 
 #: ../data/LanguageSelector.ui.h:1
 #: ../data/gnome-language-selector.desktop.in.h:1
@@ -189,8 +202,7 @@ msgid ""
 "When a language is installed, individual users can choose it in their "
 "Language settings."
 msgstr ""
-"जब भाषा स्थापिन हुन्छ तब व्यक्तिगत प्रयोगकर्ताहरुले त्यसलाई भाषा सेटिड्मा "
-"छनौट गर्न सक्नेछ्न्"
+"जब भाषा स्थापिन हुन्छ तब व्यक्तिगत प्रयोगकर्ताहरुले त्यसलाई भाषा सेटिड्मा छनौट गर्न सक्नेछ्न्"
 
 #: ../data/LanguageSelector.ui.h:7
 msgid "Language for menus and windows:"
@@ -207,12 +219,12 @@ msgid ""
 "\"English\".\n"
 "Every entry below \"English\" will be ignored."
 msgstr ""
-"यो सेटिङले आफ्नो डेस्कटप र एप्लिकेसन​​मा प्रदर्शित भाषालाई मात्र​ असर गर्छ। "
-"येसले मुद्रा वा मिति ढाँचा सेटिङहरू जस्ता सिस्टम वातावरण सेट गर्दैन​। त्यसका "
-"लागि रिजनल फर्म्याट ट्याबमा भ​एको सेटिङ प्रयोग गर्नुहोस्। \n"
-"यहाँ प्रदर्शित मान को क्रमले आफ्नो डेस्कटपका लागि कुन​ अनुवाद प्रयोग गर्ने "
-"निर्णय गर्छ​। पहिलो भाषा लागि अनुवाद उपलब्ध छैन भने, यो सूचीमा भ​एको अर्को "
-"प्रयास गरिनेछ। यो सूची अन्तिम प्रविष्टि सधैं \"अंग्रेजी\" छ।\n"
+"यो सेटिङले आफ्नो डेस्कटप र एप्लिकेसन​​मा प्रदर्शित भाषालाई मात्र​ असर गर्छ। येसले मुद्रा वा "
+"मिति ढाँचा सेटिङहरू जस्ता सिस्टम वातावरण सेट गर्दैन​। त्यसका लागि रिजनल फर्म्याट ट्याबमा भ​"
+"एको सेटिङ प्रयोग गर्नुहोस्। \n"
+"यहाँ प्रदर्शित मान को क्रमले आफ्नो डेस्कटपका लागि कुन​ अनुवाद प्रयोग गर्ने निर्णय गर्छ​। "
+"पहिलो भाषा लागि अनुवाद उपलब्ध छैन भने, यो सूचीमा भ​एको अर्को प्रयास गरिनेछ। यो सूची "
+"अन्तिम प्रविष्टि सधैं \"अंग्रेजी\" छ।\n"
 "\"अंग्रेजी\" तल हरेक प्रविष्टि उपेक्षा गरिनेछ।"
 
 #: ../data/LanguageSelector.ui.h:11
@@ -229,10 +241,9 @@ msgstr "व्यापक प्रणाली लागू गनुहोस
 
 #: ../data/LanguageSelector.ui.h:14
 msgid ""
-"<small>Use the same language choices for startup and the login "
-"screen.</small>"
-msgstr ""
-"<small>सुरुआतमा र लगइन स्क्रिनमा त्यहि भाषा बिकल्प प्रयोग गर्न ।</small>"
+"<small>Use the same language choices for startup and the login screen.</"
+"small>"
+msgstr "<small>सुरुआतमा र लगइन स्क्रिनमा त्यहि भाषा बिकल्प प्रयोग गर्न ।</small>"
 
 #: ../data/LanguageSelector.ui.h:15
 msgid "Install / Remove Languages..."
@@ -253,13 +264,13 @@ msgid ""
 "If you want to use alternative input method systems, install the "
 "corresponding packages first and then choose the desired system here."
 msgstr ""
-"यदि भाषाहरुमा टाइप गर्नुछ जस्को लागि लेटर म्यापिङको सरल कुञ्जी भन्दा बढी "
-"जटिल आगत विधिहरू आवश्यक पर्छ भने यो फङ्सन सुचारु गर्नुहोस्। \n"
-"उदाहरणका लागि, तपाईं चिनियाँ, जापानी, कोरियन वा भियतनामी टाइपका लागि यो "
-"फङ्सन आवश्यक हुनेछ।\n"
+"यदि भाषाहरुमा टाइप गर्नुछ जस्को लागि लेटर म्यापिङको सरल कुञ्जी भन्दा बढी जटिल आगत "
+"विधिहरू आवश्यक पर्छ भने यो फङ्सन सुचारु गर्नुहोस्। \n"
+"उदाहरणका लागि, तपाईं चिनियाँ, जापानी, कोरियन वा भियतनामी टाइपका लागि यो फङ्सन "
+"आवश्यक हुनेछ।\n"
 "उबुन्टु लागि सिफारिश मूल्य \"IBus\" छ।\n"
-"तपाईं वैकल्पिक इनपुट विधि प्रणाली प्रयोग गर्न चाहनुहुन्छ भने, पहिलो सोही "
-"प्याकेजहरू स्थापना गरि त्यसपछि यहाँ इच्छा लागेको सिस्टम छनौट गर्नुहोस्।"
+"तपाईं वैकल्पिक इनपुट विधि प्रणाली प्रयोग गर्न चाहनुहुन्छ भने, पहिलो सोही प्याकेजहरू स्थापना "
+"गरि त्यसपछि यहाँ इच्छा लागेको सिस्टम छनौट गर्नुहोस्।"
 
 #: ../data/LanguageSelector.ui.h:22
 msgid "Display numbers, dates and currency amounts in the usual format for:"
@@ -274,8 +285,8 @@ msgid ""
 "Hence you should set this to a sensible value for the region in which you "
 "are located."
 msgstr ""
-"यसले सिस्टम वातावरणलाई तल देखाए जस्तो बनाउछ । यदि तपाई डेक्सटपमा अरु कुनै "
-"भाषा हेर्न चाहानुहुन्छ भनि त्यसलाई \"भाषा\" ट्याबमा छनौट गर्न सक्नुहुन्छ ।\n"
+"यसले सिस्टम वातावरणलाई तल देखाए जस्तो बनाउछ । यदि तपाई डेक्सटपमा अरु कुनै भाषा हेर्न "
+"चाहानुहुन्छ भनि त्यसलाई \"भाषा\" ट्याबमा छनौट गर्न सक्नुहुन्छ ।\n"
 "तपाइले यसलाई अापु रहेको क्षेत्र अनुरुप राख्नुपर्ने हुन्छ ।"
 
 #: ../data/LanguageSelector.ui.h:26
@@ -285,8 +296,7 @@ msgstr "<small> तपाईंले अर्को पटक लग इन �
 #: ../data/LanguageSelector.ui.h:27
 msgid ""
 "<small>Use the same format choice for startup and the login screen.</small>"
-msgstr ""
-"<small>सुरुआतमा र लगइन स्क्रिनमा एउटै  ढाँचा विकल्प प्रयोग गर्न</small>"
+msgstr "<small>सुरुआतमा र लगइन स्क्रिनमा एउटै  ढाँचा विकल्प प्रयोग गर्न</small>"
 
 #: ../data/LanguageSelector.ui.h:28
 msgid "Currency:"
@@ -321,16 +331,15 @@ msgstr "भाषा समर्थन अपूर्ण"
 #: ../data/incomplete-language-support-gnome.note.in:6
 msgid ""
 "The language support files for your selected language seem to be incomplete. "
-"You can install the missing components by clicking on \"Run this action "
-"now\" and follow the instructions. An active internet connection is "
-"required. If you would like to do this at a later time, please use Language "
-"Support instead (click the icon at the very right of the top bar and select "
-"\"System Settings... -> Language Support\")."
+"You can install the missing components by clicking on \"Run this action now"
+"\" and follow the instructions. An active internet connection is required. "
+"If you would like to do this at a later time, please use Language Support "
+"instead (click the icon at the very right of the top bar and select \"System "
+"Settings... -> Language Support\")."
 msgstr ""
-"तपाईले छनौट गर्नुभएको भाषाको भाषा समर्थन फाईल अपुग छ । तपाईले यसलाई स्थापित "
-"\"यो कार्य चलान गर्न\" थिचेर निर्देशन पालन गर्नुहोस् । यसको लागि इन्टरनेट "
-"चाहिन्छ । यदि तपाई यसलाई अरु कुनै बेला गर्न चाहानुहुन्छ भनि यसको साटो भाषा "
-"समर्थन प्रयोग गर्नुहोस् ।"
+"तपाईले छनौट गर्नुभएको भाषाको भाषा समर्थन फाईल अपुग छ । तपाईले यसलाई स्थापित \"यो "
+"कार्य चलान गर्न\" थिचेर निर्देशन पालन गर्नुहोस् । यसको लागि इन्टरनेट चाहिन्छ । यदि तपाई "
+"यसलाई अरु कुनै बेला गर्न चाहानुहुन्छ भनि यसको साटो भाषा समर्थन प्रयोग गर्नुहोस् ।"
 
 #. Name
 #: ../data/restart_session_required.note.in:5
@@ -364,8 +373,7 @@ msgstr "लक्ष्य भाषा कोड"
 
 #: ../check-language-support:28
 msgid "check for the given package(s) only -- separate packagenames by comma"
-msgstr ""
-"केवल दिइएको प्याकेजहरु चेक गर्न -- प्याकेजको नामलाई अल्पबिरामले छुट्याउनुहोस्"
+msgstr "केवल दिइएको प्याकेजहरु चेक गर्न -- प्याकेजको नामलाई अल्पबिरामले छुट्याउनुहोस्"
 
 #: ../check-language-support:30
 msgid "output all available language support packages for all languages"

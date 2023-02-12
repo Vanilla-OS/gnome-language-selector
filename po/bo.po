@@ -6,11 +6,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-03-23 19:42+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-24 21:53+0000\n"
 "PO-Revision-Date: 2019-11-04 06:30+0000\n"
 "Last-Translator: Launchpad Translations Administrators <Unknown>\n"
 "Language-Team: Tibetan <bo@li.org>\n"
+"Language: bo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,130 +30,142 @@ msgstr "རྒྱ་ཡིག་(ཡིག་གསར)"
 msgid "Chinese (traditional)"
 msgstr "རྒྱ་ཡིག(ཡིག་རྙིང)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:233
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:236
 msgid "No language information available"
 msgstr "བེད་སྤྱོད་རུང་བའི་སྐད་རིགས་ཀྱི་ཆ་འཕྲིན་མེད་པ་"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:234
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:237
 msgid ""
 "The system does not have information about the available languages yet. Do "
 "you want to perform a network update to get them now? "
 msgstr ""
-"མ་ལག་འདིར་སྤྱོད་རུང་བའི་སྐད་རིགས་ཀྱི་ཆ་འཕྲིན་ཅི་ཡང་མི་འདུག "
-"ཁྱོད་ཀྱིས་དྲ་བ་ལས་རིམ་སྤར་བྱས་ཏེ་དེ་དག་ཐོབ་འདོད་དམ "
+"མ་ལག་འདིར་སྤྱོད་རུང་བའི་སྐད་རིགས་ཀྱི་ཆ་འཕྲིན་ཅི་ཡང་མི་འདུག ཁྱོད་ཀྱིས་དྲ་བ་ལས་རིམ་སྤར་བྱས་ཏེ་དེ་དག་ཐོབ་"
+"འདོད་དམ "
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:238
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:241
 msgid "_Update"
 msgstr "གསར་སྒྱུར(_U)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:322
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:359
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:325
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:362
 #: ../data/LanguageSelector.ui.h:21
 msgid "Language"
 msgstr "སྐད་རིགས"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:329
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:332
 msgid "Installed"
 msgstr "སྒྲིག་འཇུག་བྱས་ཟིན་པ"
 
 #. print("%(INSTALL)d to install, %(REMOVE)d to remove" % (countInstall, countRemove))
 #. Translators: %(INSTALL)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "INSTALL".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:397
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:400
 #, python-format
 msgid "%(INSTALL)d to install"
 msgid_plural "%(INSTALL)d to install"
 msgstr[0] "%(INSTALL)dསྒྲིག་འཇུག་དགོས་པ"
 
 #. Translators: %(REMOVE)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "REMOVE".
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:399
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:402
 #, python-format
 msgid "%(REMOVE)d to remove"
 msgid_plural "%(REMOVE)d to remove"
 msgstr[0] "འདོར་དགོས་པ་%(REMOVE)d"
 
 #. Translators: this string will concatenate the "%n to install" and "%n to remove" strings, you can replace the comma if you need to.
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:408
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:411
 #, python-format
 msgid "%s, %s"
 msgstr "%s，%s"
 
 #. find out about the other options
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:456
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:459
 msgid "none"
 msgstr ""
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:509
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:718
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:512
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:748
 msgid "Software database is broken"
 msgstr "མཉེན་ཆས་གྲངས་མཛོད་འཐོར་བརླག་ཐེབས་པ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:510
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:719
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:513
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:749
 msgid ""
 "It is impossible to install or remove any software. Please use the package "
 "manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
 "this issue at first."
 msgstr ""
-"མཉེན་ཆས་ཅི་ཡང་འདོར་མི་ཐུབ་པ "
-"སི་ན་ཕི་མཉེན་ཆས་དོ་དམ་ཆས་སྤྱོད་པའམ་མཐའ་སྣེ་འཇུག་སྒོར\"sudo apt-get install -"
-"f\"བཅུག་ནས་གནད་དོན་འདི་བཟོ་བཅོས་བྱེད་རོགས"
+"མཉེན་ཆས་ཅི་ཡང་འདོར་མི་ཐུབ་པ སི་ན་ཕི་མཉེན་ཆས་དོ་དམ་ཆས་སྤྱོད་པའམ་མཐའ་སྣེ་འཇུག་སྒོར\"sudo apt-"
+"get install -f\"བཅུག་ནས་གནད་དོན་འདི་བཟོ་བཅོས་བྱེད་རོགས"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:551
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:554
 msgid "Could not install the selected language support"
 msgstr "བདམས་ཟིན་པའི་སྐད་རིགས་རོགས་འདེགས་སྒྲིག་འཇུག་བྱེད་མི་ཐུབ་པ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:552
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:555
 msgid ""
 "This is perhaps a bug of this application. Please file a bug report at "
 "https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
 msgstr ""
-"འདི་ཕལ་ཆེར་ཉེར་སྤྱོད་ཀྱི་གནོད་སྐྱོན་ཞིག་རེད "
-"https://bugs.launchpad.net/ubuntu/+source/language-"
-"selector/+filebugལ་གནོད་སྐྱོན་ཡར་ཞུ་བྱེད་རོགས"
+"འདི་ཕལ་ཆེར་ཉེར་སྤྱོད་ཀྱི་གནོད་སྐྱོན་ཞིག་རེད https://bugs.launchpad.net/ubuntu/+source/"
+"language-selector/+filebugལ་གནོད་སྐྱོན་ཡར་ཞུ་བྱེད་རོགས"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:576
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:612
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:579
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:615
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:619
 msgid "Could not install the full language support"
 msgstr "སྐད་རིགས་རོགས་འདེགས་ཆ་ཚང་དེ་སྒྲིག་འཇུག་བྱེད་མི་ཐུབ་པ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:577
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:580
 msgid ""
 "Usually this is related to an error in your software archive or software "
 "manager. Check your preferences in Software Sources (click the icon at the "
-"very right of the top bar and select \"System Settings... -> Software "
-"Sources\")."
+"very right of the top bar and select \"System Settings... -> Software Sources"
+"\")."
 msgstr ""
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:613
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
 msgid "Failed to authorize to install packages."
 msgstr ""
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:671
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
+msgid "Failed to install packages. Please try again later."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#, fuzzy
+#| msgid "Installed Languages"
+msgid "Installing packages..."
+msgstr "སྒྲིག་འཇུག་བྱས་པའི་སྐད་རིགས"
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
+msgid "Please wait while the packages are being installed."
+msgstr ""
+
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
 msgstr "སྐད་རིགས་རོགས་འདེགས་སྒྲིག་འཇུག་ཆ་ཚང་བོ་བྱས་མེད་པ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:702
 msgid ""
 "Some translations or writing aids available for your chosen languages are "
 "not installed yet. Do you want to install them now?"
 msgstr ""
-"ཁྱོད་ཀྱིས་བདམས་ཟིན་པའི་སྐད་རིགས་ལ་ཡིག་སྒྱུར་རམ་རྩོམ་སྒྲིག་རོགས་འདེགས་སྤྱོད་རུ"
-"ང་བ་ཡོད་པས་ཁྱོད་ཀྱིས་དེ་དག་ད་ལྟ་སྒྲིག་འཇུག་དགོས་སམ"
+"ཁྱོད་ཀྱིས་བདམས་ཟིན་པའི་སྐད་རིགས་ལ་ཡིག་སྒྱུར་རམ་རྩོམ་སྒྲིག་རོགས་འདེགས་སྤྱོད་རུང་བ་ཡོད་པས་ཁྱོད་ཀྱིས་དེ་དག་ད་"
+"ལྟ་སྒྲིག་འཇུག་དགོས་སམ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:675
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:705
 msgid "_Remind Me Later"
 msgstr "ཅུང་ཙམ་ནས་གསལ་འདེབས་བྱེད་པ(_R)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:676
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:706
 msgid "_Install"
 msgstr "སྒྲིག་འཇུག(_I)"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:679
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:709
 msgid "Details"
 msgstr "ཞིབ་ཕྲ"
 
-#: ../LanguageSelector/gtk/GtkLanguageSelector.py:943
+#: ../LanguageSelector/gtk/GtkLanguageSelector.py:973
 #, python-format
 msgid ""
 "Failed to apply the '%s' format\n"
@@ -184,9 +197,7 @@ msgstr "སྒྲིག་འཇུག་བྱས་པའི་སྐད་ར
 msgid ""
 "When a language is installed, individual users can choose it in their "
 "Language settings."
-msgstr ""
-"སྐད་རིགས་ཤིག་སྒྲིག་འཇུག་བྱས་རྗེས་སྒེར་གྱིས་དེ་དག་གི་སྐད་རིགས་སྒྲིག་འགོད་འདེམས"
-"་ཆོག"
+msgstr "སྐད་རིགས་ཤིག་སྒྲིག་འཇུག་བྱས་རྗེས་སྒེར་གྱིས་དེ་དག་གི་སྐད་རིགས་སྒྲིག་འགོད་འདེམས་ཆོག"
 
 #: ../data/LanguageSelector.ui.h:7
 msgid "Language for menus and windows:"
@@ -224,8 +235,8 @@ msgstr "མ་ལག་ཡོངས་ལ་ཉེར་སྤྱོད་བྱ
 
 #: ../data/LanguageSelector.ui.h:14
 msgid ""
-"<small>Use the same language choices for startup and the login "
-"screen.</small>"
+"<small>Use the same language choices for startup and the login screen.</"
+"small>"
 msgstr ""
 
 #: ../data/LanguageSelector.ui.h:15
@@ -250,8 +261,7 @@ msgstr ""
 
 #: ../data/LanguageSelector.ui.h:22
 msgid "Display numbers, dates and currency amounts in the usual format for:"
-msgstr ""
-"འདིར་ཨང་ཀི་དང་ཟླ་ཚེས། དངུལ་ལོའི་གྲངས་ཀ་དུས་རྒྱུན་གྱི་རྣམ་བཞག་ནང་འཆར་བ："
+msgstr "འདིར་ཨང་ཀི་དང་ཟླ་ཚེས། དངུལ་ལོའི་གྲངས་ཀ་དུས་རྒྱུན་གྱི་རྣམ་བཞག་ནང་འཆར་བ："
 
 #: ../data/LanguageSelector.ui.h:23
 msgid ""
@@ -271,8 +281,7 @@ msgstr ""
 
 #: ../data/LanguageSelector.ui.h:26
 msgid "<small>Changes take effect next time you log in.</small>"
-msgstr ""
-"<small>ཐེངས་རྗེས་མར་ཐོ་འགོད་སྐབས་ཁྱོད་ཀྱི་བཟོ་བཅོས་ནུས་པ་ཐོན་སྲིད་</small>"
+msgstr "<small>ཐེངས་རྗེས་མར་ཐོ་འགོད་སྐབས་ཁྱོད་ཀྱི་བཟོ་བཅོས་ནུས་པ་ཐོན་སྲིད་</small>"
 
 #: ../data/LanguageSelector.ui.h:27
 msgid ""
@@ -301,8 +310,7 @@ msgstr "རང་ཁུལ་གྱི་རྣམ་བཞག"
 
 #: ../data/gnome-language-selector.desktop.in.h:2
 msgid "Configure multiple and native language support on your system"
-msgstr ""
-"ཁྱོད་ཀྱི་མ་ལག་ཐོག་རྒྱབ་སྐྱོར་ཡོད་པའི་སྣ་ནང་སྐད་རིགས་དང་ཕ་སྐད་སྒྲིག་བཟོ་བྱེད་པ"
+msgstr "ཁྱོད་ཀྱི་མ་ལག་ཐོག་རྒྱབ་སྐྱོར་ཡོད་པའི་སྣ་ནང་སྐད་རིགས་དང་ཕ་སྐད་སྒྲིག་བཟོ་བྱེད་པ"
 
 #. Name
 #: ../data/incomplete-language-support-gnome.note.in:5
@@ -313,11 +321,11 @@ msgstr "ཆ་མི་ཚང་བའི་སྐད་རིགས་རོག
 #: ../data/incomplete-language-support-gnome.note.in:6
 msgid ""
 "The language support files for your selected language seem to be incomplete. "
-"You can install the missing components by clicking on \"Run this action "
-"now\" and follow the instructions. An active internet connection is "
-"required. If you would like to do this at a later time, please use Language "
-"Support instead (click the icon at the very right of the top bar and select "
-"\"System Settings... -> Language Support\")."
+"You can install the missing components by clicking on \"Run this action now"
+"\" and follow the instructions. An active internet connection is required. "
+"If you would like to do this at a later time, please use Language Support "
+"instead (click the icon at the very right of the top bar and select \"System "
+"Settings... -> Language Support\")."
 msgstr ""
 
 #. Name
@@ -329,8 +337,7 @@ msgstr "བསྐྱར་དུ་འགོ་འཛུགས་དགོས་
 #: ../data/restart_session_required.note.in:6
 msgid "The new language settings will take effect once you have logged out."
 msgstr ""
-"ཁྱོད་ཀྱི་ཐོ་འགོད་ཕྱིར་འདོན་བྱས་རྗེས་གསར་དུ་སྒྲིག་འགོད་བྱས་པའི་སྐད་རིགས་སྒྲིག་"
-"འགོད་གཞི་ནས་བེད་སྤྱོད་ཡོང་བ"
+"ཁྱོད་ཀྱི་ཐོ་འགོད་ཕྱིར་འདོན་བྱས་རྗེས་གསར་དུ་སྒྲིག་འགོད་བྱས་པའི་སྐད་རིགས་སྒྲིག་འགོད་གཞི་ནས་བེད་སྤྱོད་ཡོང་བ"
 
 #: ../dbus_backend/com.ubuntu.languageselector.policy.in.h:1
 msgid "Set system default language"
@@ -354,8 +361,7 @@ msgstr "དམིགས་ཡུལ་སྐད་རིགས་ཚབ་ཨང
 
 #: ../check-language-support:28
 msgid "check for the given package(s) only -- separate packagenames by comma"
-msgstr ""
-"སྤྲད་ཟིན་པའི་ཐུམ་བུ་ཁོ་ནར་ལྟ་བཤེར་བྱེད་པ _ ཐུམ་བུ་མིང་,་ཡིས་མཚམས་བཟོ་བ"
+msgstr "སྤྲད་ཟིན་པའི་ཐུམ་བུ་ཁོ་ནར་ལྟ་བཤེར་བྱེད་པ _ ཐུམ་བུ་མིང་,་ཡིས་མཚམས་བཟོ་བ"
 
 #: ../check-language-support:30
 msgid "output all available language support packages for all languages"
