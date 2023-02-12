@@ -2,22 +2,23 @@
 # Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the language-selector package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
+# Luna Jernberg <droidbittin@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
-"PO-Revision-Date: 2019-11-04 06:30+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
-"Language-Team: Swedish <sv@li.org>\n"
+"PO-Revision-Date: 2023-02-13 23:18+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/vanilla-os/"
+"gnome-language-selector/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
-"X-Generator: Launchpad (build 4c58cf79c82ce3fbd42288b21369cc838fb5b9e0)\n"
 
 #. Hack for Chinese langpack split
 #. Translators: please translate 'Chinese (simplified)' and 'Chinese (traditional)' so that they appear next to each other when sorted alphabetically.
@@ -54,7 +55,7 @@ msgstr "Språk"
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:332
 msgid "Installed"
-msgstr "Installerat"
+msgstr "Installerad"
 
 #. print("%(INSTALL)d to install, %(REMOVE)d to remove" % (countInstall, countRemove))
 #. Translators: %(INSTALL)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "INSTALL".
