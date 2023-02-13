@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the language-selector package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
 # Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>, 2023.
+# "J. Lavoie" <j.lavoie@net-c.ca>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
 "PO-Revision-Date: 2023-02-13 23:18+0000\n"
-"Last-Translator: Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>\n"
+"Last-Translator: \"J. Lavoie\" <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "gnome-language-selector/fr/>\n"
 "Language: fr\n"
@@ -71,8 +72,8 @@ msgstr[1] "%(INSTALL)d pour installer"
 #, python-format
 msgid "%(REMOVE)d to remove"
 msgid_plural "%(REMOVE)d to remove"
-msgstr[0] "%(REMOVE)d pour supprimer"
-msgstr[1] "%(REMOVE)d pour supprimer"
+msgstr[0] "%(REMOVE)d à retirer"
+msgstr[1] "%(REMOVE)d à retirer"
 
 #. Translators: this string will concatenate the "%n to install" and "%n to remove" strings, you can replace the comma if you need to.
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:411
