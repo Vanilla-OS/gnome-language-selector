@@ -3,22 +3,23 @@
 # Copyright (c) (c) 2005 Canonical Ltd, and Rosetta Contributors 2005
 # This file is distributed under the same license as the language-selector package.
 # Gabor Kelemen <kelemeng@gnome.hu>, 2005.
-#
+# Benjamin Kőhidi <benstone326@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: lang-hu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
-"PO-Revision-Date: 2019-11-04 06:30+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
-"Language-Team: <hu@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-02-15 16:35+0000\n"
+"Last-Translator: Benjamin Kőhidi <benstone326@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
+"gnome-language-selector/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
-"X-Generator: Launchpad (build 4c58cf79c82ce3fbd42288b21369cc838fb5b9e0)\n"
 "X-Rosetta-Version: 0.1\n"
 
 #. Hack for Chinese langpack split
@@ -138,17 +139,15 @@ msgstr "Nem engedélyezett a csomagok telepítése."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
 msgid "Failed to install packages. Please try again later."
-msgstr ""
+msgstr "Nem sikerült telepíteni a csomagokat. Kérjük, próbálja meg később újra."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
-#, fuzzy
-#| msgid "Installed Languages"
 msgid "Installing packages..."
-msgstr "Telepített nyelvek"
+msgstr "Csomagok telepítése..."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
 msgid "Please wait while the packages are being installed."
-msgstr ""
+msgstr "Kérjük, várjon, amíg a csomagok telepítése folyamatban van."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
@@ -302,10 +301,11 @@ msgid ""
 msgstr ""
 "Ez a rendszer környezetét az alább látható módon módosítja, és hatással lesz "
 "az előnyben részesített papírformátumra és más területspecifikus "
-"beállításokra. Olyan érték kiválasztása ajánlott, amely megfelel a "
-"tartózkodási helyén érvényes konvencióknak.\n"
+"beállításokra.\n"
 "Ha más nyelven kívánja megjeleníteni az asztali környezetet, akkor azt a "
-"„Nyelv” lapon válassza ki."
+"„Nyelv” lapon válassza ki.\n"
+"Olyan érték kiválasztása ajánlott, amely megfelel a tartózkodási helyén "
+"érvényes konvencióknak."
 
 #: ../data/LanguageSelector.ui.h:26
 msgid "<small>Changes take effect next time you log in.</small>"
