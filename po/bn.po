@@ -4,22 +4,23 @@
 # Khandakar Mujahidul Islam <suzan@bengalinux.org>, 2006.
 # Mahay Alam Khan <mak@ankur.org.bd>, 2012.
 # Ayesha Akhtar <ayesha@ankur.org.bd>, 2012.
-#
+# Abu Huraira <abuhuraira@tutamail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
-"PO-Revision-Date: 2019-11-04 06:30+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
-"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
+"Language-Team: Bengali <https://hosted.weblate.org/projects/vanilla-os/"
+"gnome-language-selector/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.16-dev\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
-"X-Generator: Launchpad (build 4c58cf79c82ce3fbd42288b21369cc838fb5b9e0)\n"
 
 #. Hack for Chinese langpack split
 #. Translators: please translate 'Chinese (simplified)' and 'Chinese (traditional)' so that they appear next to each other when sorted alphabetically.
@@ -46,7 +47,7 @@ msgstr ""
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:241
 msgid "_Update"
-msgstr "হালনাগাদ (_U)"
+msgstr "_আপডেট"
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:325
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:362
@@ -65,15 +66,15 @@ msgstr "ইনস্টলকৃত"
 msgid "%(INSTALL)d to install"
 msgid_plural "%(INSTALL)d to install"
 msgstr[0] "%(INSTALL)d টি ইনস্টল করা বাকি"
-msgstr[1] "%(INSTALL)d টি ইনস্টল করা বাকি"
+msgstr[1] "%(INSTALL)d গুলি ইনস্টল করা বাকি"
 
 #. Translators: %(REMOVE)d is parsed; either keep it exactly as is or remove it entirely, but don't translate "REMOVE".
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:402
 #, python-format
 msgid "%(REMOVE)d to remove"
 msgid_plural "%(REMOVE)d to remove"
-msgstr[0] "%(REMOVE)d অপসারণ করা হবে"
-msgstr[1] "%(REMOVE)d অপসারণ করা হবে"
+msgstr[0] "%(REMOVE)d টি অপসারণ করা হবে"
+msgstr[1] "%(REMOVE)d গুলি অপসারণ করা হবে"
 
 #. Translators: this string will concatenate the "%n to install" and "%n to remove" strings, you can replace the comma if you need to.
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:411
@@ -133,21 +134,20 @@ msgstr ""
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:616
 msgid "Failed to authorize to install packages."
-msgstr "প্যাকেজ ইনস্টল করার অনুমোদন প্রদান করতে ব্যর্থ"
+msgstr "প্যাকেজ ইনস্টল করার অনুমোদন প্রদান করতে ব্যর্থ।"
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
 msgid "Failed to install packages. Please try again later."
 msgstr ""
+"প্যাকেজ ইন্সটল করতে ব্যর্থ হয়েছে। অনুগ্রহপূর্বক কিছুক্ষণ পর আবার চেষ্টা করুন।"
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
-#, fuzzy
-#| msgid "Installed Languages"
 msgid "Installing packages..."
-msgstr "ইনস্টলকৃত ভাষাসমূহ"
+msgstr "প্যাকেজগুলি ইন্সটল করা হচ্ছে..."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
 msgid "Please wait while the packages are being installed."
-msgstr ""
+msgstr "প্যাকেজগুলি ইনস্টল করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন।"
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
@@ -227,12 +227,14 @@ msgid ""
 "\"English\".\n"
 "Every entry below \"English\" will be ignored."
 msgstr ""
-"এ সেটিং আপনার ডেক্সটপের ভাষায় এবং এতে প্রদর্শিত অ্যাপ্লিকেশনেপ্রভাব ফেলে। এটা "
-"সিস্টেমের এনভায়রনমেন্টে প্রভাব ফেলে না, যেমন মূদ্রা বা তারিখবিন্যাসেরসেটিং এ প্রভাব "
-"ফেলে না। এ জন্য, এ সেটিং এলাকাভিত্তিক ফরম্যাট ট্যাবে ব্যবহার করতে হবে।\n"
-"এখানে প্রদর্শিত মানের ক্রম নির্ধারণ করে যে কোন অনুবাদ ব্যবহার করা হবেআপনার "
-"ডেক্সটপের জন্য। যদি প্রথম ভাষার জন্য অুবাদ পাওয়া না যায় তবে\"ইংরেজি\"।\n"
-"\"ইংরেজি\" এর আওতায় সব এন্ট্রি উপেক্ষা করা হবে।"
+"এই সেটিং শুধুমাত্র আপনার ডেক্সটপ ও এতে প্রদর্শিত অ্যাপ্লিকেশনগুলির ভাষায় "
+"প্রভাব ফেলে। এটা সিস্টেমের এনভায়রনমেন্টে প্রভাব ফেলে না, যেমন মূদ্রা বা তারি"
+"খ বিন্যাসের সেটিং এ প্রভাব ফেলে না। বরং তার জন্য এলাকাভিত্তিক ফরম্যাট ট্যাব "
+"ব্যবহার করতে হবে।\n"
+"এখানে প্রদর্শিত মানের ক্রম অনুযায়ী আপনার ডেক্সটপের জন্য অনুবাদ ব্যবহার করা "
+"হবে। যদি তালিকার প্রথম ভাষার জন্য অনুবাদ পাওয়া না যায় তাহলে এর পরেরটি চেষ্টা "
+"করা হবে। এই তালিকার শেষ এন্ট্রি হলো \"ইংরেজি\"।\n"
+"\"ইংরেজি\" এর পরের সব এন্ট্রি উপেক্ষা করা হবে।"
 
 #: ../data/LanguageSelector.ui.h:11
 msgid ""
@@ -271,6 +273,14 @@ msgid ""
 "If you want to use alternative input method systems, install the "
 "corresponding packages first and then choose the desired system here."
 msgstr ""
+"আপনি যদি এমন সব ভাষা টাইপ করতে চান, যার জন্য অক্ষর ম্যাপিংয়ের সাধারণ কী থেকে"
+" আরও জটিল ইনপুট পদ্ধতির প্রয়োজন হয়, তাহলে আপনি এই ফাংশনটি চালু করতে পারেন।"
+"\n"
+"উদাহরণস্বরূপ, চাইনিজ, জাপানিজ, কোরিয়ান বা ভিয়েতনামি টাইপ করার জন্য আপনার "
+"এই ফাংশনটির প্রয়োজন হবে।\n"
+"উবুন্টুর জন্য প্রস্তাবিত মান হল \"IBus\"।\n"
+"আপনি যদি বিকল্প ইনপুট পদ্ধতি সিস্টেম ব্যবহার করতে চান, তাহলে প্রথমে সংশ্লিষ্"
+"ট প্যাকেজগুলি ইনস্টল করুন এবং তারপরে এখানে পছন্দসই সিস্টেমটি বেছে নিন।"
 
 #: ../data/LanguageSelector.ui.h:22
 msgid "Display numbers, dates and currency amounts in the usual format for:"
@@ -362,7 +372,7 @@ msgstr "সিস্টেমের ডিফল্ট ভাষা নির্
 
 #: ../dbus_backend/com.ubuntu.languageselector.policy.in.h:2
 msgid "System policy prevented setting default language"
-msgstr "সিস্টেম পলিসি ডিফল্ট ভাষা স্থির করতে বাধা দিচ্ছে।"
+msgstr "সিস্টেম পলিসি ডিফল্ট ভাষা নির্ধারণ করতে বাধা দিচ্ছে"
 
 #: ../gnome-language-selector:33
 msgid "don't verify installed language support"
@@ -382,7 +392,7 @@ msgstr "শুধুমাত্র প্রদত্ত প্যাকেজ 
 
 #: ../check-language-support:30
 msgid "output all available language support packages for all languages"
-msgstr "সকল ভাষার সহজলভ্য সকল ভাষা সমর্থন প্যাকেজ প্রদর্শন করুন।"
+msgstr "সকল ভাষার জন্য উপলব্ধ সবগুলি ল্যাঙ্গুয়েজ সাপোর্ট প্যাকেজ প্রদর্শন করুন"
 
 #: ../check-language-support:33
 msgid "show installed packages as well as missing ones"
