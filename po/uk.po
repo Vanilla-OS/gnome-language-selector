@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the language-selector package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
 # Serhii Chebanenko <4e6anenk0@gmail.com>, 2023.
+# Dan <denqwerta@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
 "PO-Revision-Date: 2023-02-20 18:21+0000\n"
-"Last-Translator: Serhii Chebanenko <4e6anenk0@gmail.com>\n"
+"Last-Translator: Dan <denqwerta@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/vanilla-os/"
 "gnome-language-selector/uk/>\n"
 "Language: uk\n"
@@ -278,7 +279,7 @@ msgstr ""
 "Якщо вам потрібно набирати тексти мовами, що потребують методів уведення "
 "більш складного тексту, аніж просте набирання за допомогою клавіш, вам, "
 "можливо, знадобиться увімкнути цю функцію.\n"
-"Наприклад, ця функція знадобиться  вам при набиранні тексту китайською, "
+"Наприклад, ця функція знадобиться вам при набиранні тексту китайською, "
 "японською, корейською чи в’єтнамською мовами.\n"
 "Рекомендоване значення для Ubuntu – \"Ibus\".\n"
 "Якщо вам потрібно використовувати альтернативні системи методів уведення, то "
