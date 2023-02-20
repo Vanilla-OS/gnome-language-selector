@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
-"PO-Revision-Date: 2023-02-15 16:35+0000\n"
+"PO-Revision-Date: 2023-02-20 18:21+0000\n"
 "Last-Translator: Andrew Geo <andrewgeo@outlook.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/"
 "gnome-language-selector/el/>\n"
@@ -366,24 +366,23 @@ msgid ""
 "instead (click the icon at the very right of the top bar and select \"System "
 "Settings... -> Language Support\")."
 msgstr ""
-"Τα αρχεία γλωσσικής υποστήριξης για την επιλεγμένη γλώσσα σας φαίνεται να "
-"μην είναι πλήρη. Μπορείτε να εγκαταστήσετε τα πακέτα που λείπουν, με κλικ "
-"στο «Εκτέλεση» και ακολουθήστε τις οδηγίες. Μια ενεργή σύνδεση στο διαδίκτυο "
-"είναι απαραίτητη. Αν θέλετε να το κάνετε αργότερα, τότε παρακαλούμε επιλέξτε "
-"τη Γλωσσική υποστήριξη (κάντε κλικ στο εικονίδιο στα δεξιά στην επάνω γραμμή "
-"και επιλέξτε «Διαχείριση συστήματος… → Γλωσσική υποστήριξη»)."
+"Τα αρχεία γλωσσικής υποστήριξης για την επιλεγμένη γλώσσα φαίνεται να μην "
+"είναι πλήρη. Μπορείτε να εγκαταστήσετε τα πακέτα που λείπουν, κάνοντας κλικ "
+"στο «Εκτέλεση» και ακολουθώντας τις οδηγίες. Μια ενεργή σύνδεση στο "
+"διαδίκτυο είναι απαραίτητη. Αν θέλετε να το κάνετε αργότερα, τότε "
+"παρακαλούμε επιλέξτε τη Γλωσσική Υποστήριξη (κάντε κλικ στο εικονίδιο στα "
+"δεξιά στην επάνω γραμμή και επιλέξτε «Διαχείριση συστήματος… → Γλωσσική "
+"υποστήριξη»)."
 
 #. Name
 #: ../data/restart_session_required.note.in:5
 msgid "Session Restart Required"
-msgstr "Χρειάζεται επανεκκίνηση συνεδρίας"
+msgstr "Απαιτείται Επανεκκίνηση Συνόδου"
 
 #. Description
 #: ../data/restart_session_required.note.in:6
 msgid "The new language settings will take effect once you have logged out."
-msgstr ""
-"Οι ρυθμίσεις της νέας γλώσσας θα ενεργοποιηθεί από την στιγμή που θα κάνετε "
-"αποσύνδεση."
+msgstr "Οι νέες γλωσσικές ρυθμίσεις θα ενεργοποιηθούν μόλις αποσυνδεθείτε."
 
 #: ../dbus_backend/com.ubuntu.languageselector.policy.in.h:1
 msgid "Set system default language"
@@ -392,12 +391,12 @@ msgstr "Καθορίστε την προεπιλεγμένη γλώσσα συσ
 #: ../dbus_backend/com.ubuntu.languageselector.policy.in.h:2
 msgid "System policy prevented setting default language"
 msgstr ""
-"Η πολιτική του συστήματος εμπόδισε τον καθορισμό προεπιλεγμένης ρύθμισης "
+"Η πολιτική του συστήματος εμπόδισε τον καθορισμό της ρύθμισης προεπιλεγμένης "
 "γλώσσας"
 
 #: ../gnome-language-selector:33
 msgid "don't verify installed language support"
-msgstr "αδυναμία επιβεβαίωσης εγκατεστημένης γλωσσικής υποστήριξης"
+msgstr "Να μην επιβεβαιωθεί η εγκατεστημένη γλωσσική υποστήριξη"
 
 #: ../gnome-language-selector:36 ../check-language-support:27
 msgid "alternative datadir"
@@ -409,7 +408,7 @@ msgstr "κωδικός γλώσσας"
 
 #: ../check-language-support:28
 msgid "check for the given package(s) only -- separate packagenames by comma"
-msgstr "έλεγχος μόνο για τα επιλεγμένα πακέτα - διαχωρίστε τα πακέτα με κόμμα"
+msgstr "έλεγχος μόνο των επιλεγμένων πακέτων -- διαχωρίστε τα πακέτα με κόμμα"
 
 #: ../check-language-support:30
 msgid "output all available language support packages for all languages"
