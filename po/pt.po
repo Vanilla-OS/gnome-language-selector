@@ -1,11 +1,12 @@
 # Adtora Slonic <adtoraslonic@gmail.com>, 2023.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639 CVS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
-"PO-Revision-Date: 2023-02-25 18:39+0000\n"
-"Last-Translator: Adtora Slonic <adtoraslonic@gmail.com>\n"
+"PO-Revision-Date: 2023-02-27 18:37+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
 "gnome-language-selector/pt/>\n"
 "Language: pt\n"
@@ -133,7 +134,7 @@ msgstr "Falha na autorização para instalar os pacotes."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
 msgid "Failed to install packages. Please try again later."
-msgstr ""
+msgstr "Falha ao instalar pacotes. Tente novamente mais tarde."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
 msgid "Installing packages..."
@@ -141,7 +142,7 @@ msgstr "Instalando pacotes..."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
 msgid "Please wait while the packages are being installed."
-msgstr ""
+msgstr "Aguarde enquanto os pacotes estão a ser instalados."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
