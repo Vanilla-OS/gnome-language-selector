@@ -1,11 +1,12 @@
 # Adtora Slonic <adtoraslonic@gmail.com>, 2023.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639 CVS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
-"PO-Revision-Date: 2023-02-25 18:39+0000\n"
-"Last-Translator: Adtora Slonic <adtoraslonic@gmail.com>\n"
+"PO-Revision-Date: 2023-02-28 19:26+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
 "gnome-language-selector/pt/>\n"
 "Language: pt\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16-rc\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
 
 #. Hack for Chinese langpack split
@@ -133,7 +134,7 @@ msgstr "Falha na autorização para instalar os pacotes."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
 msgid "Failed to install packages. Please try again later."
-msgstr ""
+msgstr "Falha ao instalar pacotes. Tente novamente mais tarde."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
 msgid "Installing packages..."
@@ -141,7 +142,7 @@ msgstr "Instalando pacotes..."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
 msgid "Please wait while the packages are being installed."
-msgstr ""
+msgstr "Aguarde enquanto os pacotes estão a ser instalados."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
@@ -393,7 +394,7 @@ msgstr "código do idioma alvo"
 #: ../check-language-support:28
 msgid "check for the given package(s) only -- separate packagenames by comma"
 msgstr ""
-"verificar apenas para o(s) pacote(s) dados -- separar packagenames com "
+"verificar apenas para o(s) pacote(s) dados -- separar nomes de pacotes com "
 "virgula"
 
 #: ../check-language-support:30
