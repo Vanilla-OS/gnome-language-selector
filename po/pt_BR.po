@@ -1,22 +1,23 @@
 # Brazilian Portuguese translation for language-selector.
 # This file is distributed under the same license as the language-selector package.
 # Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2005.
-#
+# Felipe Nogueira <contato.fnog@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
-"PO-Revision-Date: 2019-11-04 06:30+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
-"Language-Team: Ubuntu-BR <tradutores@listas.ubuntubrasil.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-03-03 21:36+0000\n"
+"Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"vanilla-os/gnome-language-selector/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
-"X-Generator: Launchpad (build 4c58cf79c82ce3fbd42288b21369cc838fb5b9e0)\n"
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: BRAZIL\n"
 
@@ -137,17 +138,15 @@ msgstr "Falha ao autorizar a instalação dos pacotes."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:659
 msgid "Failed to install packages. Please try again later."
-msgstr ""
+msgstr "Falha ao instalar pacotes. Por favor, tente novamente mais tarde."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:672
-#, fuzzy
-#| msgid "Installed Languages"
 msgid "Installing packages..."
-msgstr "Instalar línguas"
+msgstr "Instalando pacotes..."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:674
 msgid "Please wait while the packages are being installed."
-msgstr ""
+msgstr "Aguarde enquanto os pacotes estão sendo instalados."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:701
 msgid "The language support is not installed completely"
