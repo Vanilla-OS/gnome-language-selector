@@ -2,13 +2,14 @@
 # This file is distributed under the same license as the language-selector package.
 # Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2005.
 # Felipe Nogueira <contato.fnog@gmail.com>, 2023.
+# Fernando Lopes <fefehex12@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
-"PO-Revision-Date: 2023-03-03 21:36+0000\n"
-"Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
+"PO-Revision-Date: 2023-03-16 05:38+0000\n"
+"Last-Translator: Fernando Lopes <fefehex12@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "vanilla-os/gnome-language-selector/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -46,7 +47,7 @@ msgstr ""
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:241
 msgid "_Update"
-msgstr "At_ualizar"
+msgstr "_Atualizar"
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:325
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:362
@@ -89,7 +90,7 @@ msgstr "nenhum"
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:512
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:748
 msgid "Software database is broken"
-msgstr "A Base de Dados de programas está corrompida"
+msgstr "A base de dados de programas está corrompida"
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:513
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:749
@@ -99,7 +100,7 @@ msgid ""
 "this issue at first."
 msgstr ""
 "Não é possível instalar ou remover qualquer programa. Por favor use o "
-"Gerenciador de Pacotes \"Synaptic\" ou execute \"sudo apt-get install -f\" "
+"gerenciador de pacotes \"Synaptic\" ou execute \"sudo apt-get install -f\" "
 "em um terminal para resolver esse problema primeiro."
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:554
