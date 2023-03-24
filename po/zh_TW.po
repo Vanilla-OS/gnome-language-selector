@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: language-selector\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-24 21:53+0000\n"
-"PO-Revision-Date: 2023-02-28 19:26+0000\n"
+"PO-Revision-Date: 2023-03-23 01:36+0000\n"
 "Last-Translator: Jen Kung-chih <Kaitul@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "vanilla-os/gnome-language-selector/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16-rc\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 "X-Launchpad-Export-Date: 2022-04-09 20:08+0000\n"
 
 #. Hack for Chinese langpack split
@@ -33,13 +33,13 @@ msgstr "中文 (正體字)"
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:236
 msgid "No language information available"
-msgstr "無可用語言資訊"
+msgstr "沒有可用的語言資訊"
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:237
 msgid ""
 "The system does not have information about the available languages yet. Do "
 "you want to perform a network update to get them now? "
-msgstr "系統尚無可用語言資訊。想馬上進行網路更新以取得嗎？ "
+msgstr "系統尚無可用的語言資訊。要立即透過網路更新取得語言資訊嗎？ "
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:241
 msgid "_Update"
@@ -105,8 +105,8 @@ msgid ""
 "This is perhaps a bug of this application. Please file a bug report at "
 "https://bugs.launchpad.net/ubuntu/+source/language-selector/+filebug"
 msgstr ""
-"這可能是此程式的錯誤。請於 https://bugs.launchpad.net/ubuntu/+source/"
-"language-selector/+filebug 送出臭蟲報告"
+"這可能是此應用程式的錯誤。請於 https://bugs.launchpad.net/ubuntu/+source/"
+"language-selector/+filebug 送出錯誤報告"
 
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:579
 #: ../LanguageSelector/gtk/GtkLanguageSelector.py:615
